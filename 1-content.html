@@ -1,45 +1,22 @@
-<html>
-<head>
-	<title>Italian 1</title>
-	<script src='http://www.freewebs.com/the4wizkids/java/italianverbconjugator.js'></script>
-	<script src='http://www.freewebs.com/the4wizkids/java/italiantranslator.js'></script>
-</head>
-<body bgcolor="#efefef" text="#282828" link="#414141" vlink="#353535" alink="#ffaaff">
+{% extends "template.html" %}
 
-<!-- PicoSearch no longer exists!.  Consider replacing with another site-search service -->
+{% block index %}
+	<tr><td align='center'><a href='#avereandessere'><font color='black'>Avere and Essere</font></a></td></tr>
+	<tr><td align='center'><a href='#conjugatingregularverbs'><font color='black'>Conjugating Regular Verbs</font></a></td></tr>
+	<tr><td align='center'><a href='#commonverbs'><font color='black'>Some Common Verbs</font></a></td></tr>
+	<tr><td align='center'><a href='#who'><font color='black'><i>who? what? where? when? why?</i></font></a></td></tr>
+	<tr><td align='center'><a href='#conjugationsofirregularverbs'><font color='black'>Conjugations of Some Irregular Verbs</font></a></td></tr>
+	<tr><td align='center'><a href='#prepositions'><font color='black'>Preposistions</font></a></td></tr>
+	<tr><td align='center'><a href='#contractingprepositions'><font color='black'>Contracting Prepositions</font></a></td></tr>
+	<tr><td align='center'><a href='#directobjectpronouns'><font color='black'>Direct Object Pronouns</font></a></td></tr>
+	<tr><td align='center'><a href='#indirectobjectpronouns'><font color='black'>Indirect Object Pronouns</font></a></td></tr>
+{% endblock %}
+{% block vocabindex %}
+	<tr><td align='center'><a href='vocab.htm#commonverbs'><font color='black'>Some Common Verbs</font></a></td></tr>
+{% endblock %}
 
-<br /><a href='index.html'>index</a> | <a href='2.html'>italian 2</a> | <a href='3.html'>italian 3</a> | <a href='vocab.html'>italian vocabulary</a>
 
-<br /><br /><center><font face='franklin gothic medium'><h1><b>Welcome to the Italian 1 Webpage</b></h1></font>
-
-<table width='70%'><tr>
-	<td align='center'><i>Here you will find rules for the basic structure of the Italian language.  This particular site is specifically organized to benefit students taking the Italian 1 course.  This site also contains a translator and verb conjugator.  If this site does not fully meet your needs, please submit your greivances in the submit box at the bottom, and we will add more inforation to the site.</i></td>
-	<!-- <td width='200px'><a href='scopa.htm'><img src='scopa.gif' /></a>
-	<br /><br /><font size='2' color='black'>Expirience some Italian culture and play the traditional Italian card game, Scopa!  Warning: do not play this game prior to completing your Italian homework or studying for your Italian test.</font></td> -->
-</tr></table>
-
-<br /><a href='#bottom'><font color='black' face='cac logo alternate' size='2'>to bottom</font></a><img src='http://www.freewebs.com/thewizkidsbin/bin/tobottom.gif' />
-
-<br /><br /><table align='center' border='1' bordercolor='dd2222'><tr><td><table align='center' width='300' border='14' bordercolor='#efefef'>
-<tr><td align='center' valign='center'><font face='tahoma'><h2>Italian 1</h2></font></td></tr>
-<tr><td align='center'><a href='#avereandessere'><font color='black'>Avere and Essere</font></a></td></tr>
-<tr><td align='center'><a href='#conjugatingregularverbs'><font color='black'>Conjugating Regular Verbs</font></a></td></tr>
-<tr><td align='center'><a href='#commonverbs'><font color='black'>Some Common Verbs</font></a></td></tr>
-<tr><td align='center'><a href='#who'><font color='black'><i>who? what? where? when? why?</i></font></a></td></tr>
-<tr><td align='center'><a href='#conjugationsofirregularverbs'><font color='black'>Conjugations of Some Irregular Verbs</font></a></td></tr>
-<tr><td align='center'><a href='#prepositions'><font color='black'>Preposistions</font></a></td></tr>
-<tr><td align='center'><a href='#contractingprepositions'><font color='black'>Contracting Prepositions</font></a></td></tr>
-<tr><td align='center'><a href='#directobjectpronouns'><font color='black'>Direct Object Pronouns</font></a></td></tr>
-<tr><td align='center'><a href='#indirectobjectpronouns'><font color='black'>Indirect Object Pronouns</font></a></td></tr></table></td></tr></table>
-
-<br /><br /><table align='center' border='1' bordercolor='dd2222'><tr><td><table align='center' width='300' border='14' bordercolor='#efefef'>
-<tr><td align='center' valign='center'><font face='tahoma'><h2>Italian 1 Vocab</h2></font></td></tr>
-<tr><td align='center'><a href='vocab.htm#commonverbs'><font color='black'>Some Common Verbs</font></a></td></tr>
-</table></td></tr></table>
-
-<table align='center' border='15' bordercolor='efefef'>
-<tr><td><a href='#translator'><font color='black'>On Site Translator</font></a></td></tr>
-<tr><td><a href='#verbconjugator'><font color='black'>Verb Conjugator</font></a></td></tr>
+{% block content %}
 
 <br /><br /><a name='avereandessere' />
 <br /><font face='arial rounded mt bold'><big>Avere and Essere</big></font> <font color='white'> <a href='#top'>top</a> </font>
@@ -357,45 +334,4 @@
 <tr><td><font color='white'>Change "Alison" to "her" "Chiamo a le."</font></td></tr>
 <tr><td><font color='white'>Place "her" before the verb "Le chiamo."</font></td></tr></table>
 
-<br /><br /><a name='translator' />
-<br /><font face='arial rounded mt bold'><big>On-Site Translator</big></font> <font color='white'> <a href='#top'>top</a> </font>
-
-<br /><br />Use the following translator as a quick reference to any vocabulary listed on this site.  For a more complete translator, please visit <a href='http://www.freetranslation.com' target='translation'>www.freetranslation.com</A>.
-
-<br /><br /><table border="3" bordercolor='white' bgcolor='white'>
-<form name="trans">
-<tr><td align="center"><input type="text" name="a" size="22"></td></tr>
-<tr><td align="center"><input type="text" name="answerOne" size="22" readonly> </td></tr>
-<tr><td align="center"><input type="button" value=' Translate ' onClick="translate()">
-<input type="reset" value=" Clear "></td></tr>
-</form>
-</table>
-
-<br /><br /><a name='verbconjugator' />
-<br /><font face='arial rounded mt bold'><big>Verb Conjugator</big></font> <font color='white'> <a href='#top'>top</a> </font>
-
-<br /><br />This conjugator will work for any regular verbs and a few irregular.  It currently handles presente, passato, passato remoto, imperfetto, trapassato, trapassato remoto, futuro, and futuro anteriore tenses.  You may input the tense in Italian or English, but the program is glitchy and some of the English tenses won't work.  The conjugator can also handle reflexive and reciprocol verbs.  Another good site for verb conjugation is <a href='http://www.verbix.com/languages/italian.shtml'>www.verbix.com/languages/italian.shtml</a>.  I learned many new tenses from this site.
-
-<form name="conj">
-<br />Conjugation of <input type="text" size="10" name="verb"> in the <input type="text" size="10" name="tense"> tense:
-<br /><br /><input type="button" value="Conjugate" onclick="conjugateverb()">
-<br /><br /><table border="3" bordercolor="white" bgcolor="white">
-<tr><td><font color='black'>io</font></td><td><input type="text" size="20" name="ioform" readonly></td></tr>
-<tr><td><font color='black'>tu</font></td><td><input type="text" size="20" name="tuform" readonly></td></tr>
-<tr><td><font color='black'>lui/lei</font></td><td><input type="text" size="20" name="luileiform" readonly></td></tr>
-<tr><td><font color='black'>noi</font></td><td><input type="text" size="20" name="noiform" readonly></td></tr>
-<tr><td><font color='black'>voi</font></td><td><input type="text" size="20" name="voiform" readonly></td></tr>
-<tr><td><font color='black'>loro</font></td><td><input type="text" size="20" name="loroform" readonly></td></tr></table>
-</form>
-
-<br /><br /><center><a href='#top'><font face='cac logo alternate' size='2'>to top</font></a><img src='http://www.freewebs.com/thewizkidsbin/bin/totopmusic.gif' /></center>
-
-<br /><hr>
-
-<br /><a href='index.html'>index</a> | <a href='2.html'>italian 2</a> | <a href='3.html'>italian 3</a> | <a href='vocab.html'>italian vocabulary</a>
-
-<a name='bottom' />
-
-</body>
-</html>
-
+{% endblock %}
