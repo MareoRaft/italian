@@ -1,18 +1,24 @@
 {% extends "template.html" %}
 
 {% block index %}
+	<br /><br /><table align='center' border='1' bordercolor='#33ccff'><tr><td><table align='center' width='300' border='14' bordercolor='black'>
+	<tr><td align='center' valign='center'><font face='tahoma' color='white'><h2>Italian {{ course_name }}</h2></font></td></tr>
 	<tr><td align='center'><a href='#ne'><font color='#33ccff'>The Use of Ne</font></a></td></tr>
 	<tr><td align='center'><a href='#doubleobjpronouns'><font color='#33ccff'>Double Object Pronouns</font></a></td></tr>
 	<tr><td align='center'><a href='#commands'><font color='#33ccff'>Commands</font></a></td></tr>
 	<tr><td align='center'><a href='#si'><font color='#33ccff'>Using "si"</font></a></td></tr>
-{% endblock %}
-{% block vocabindex %}
-	<tr><td align='center'><a href='http://www.freewebs.com/the4wizkids/italian/vocab.htm#storevocab'><font color='#33ccff'>Store Vocabulary</font></a></td></tr>
+	</table></td></tr></table>
+	<br /><br /><table align='center' border='1' bordercolor='#33ccff'><tr><td><table align='center' width='300' border='14' bordercolor='black'>
+	<tr><td align='center' valign='center'><font face='tahoma' color='white'><h2>Italian {{ course_name }} Vocab</h2></font></td></tr>
+	<tr><td align='center'><a href='Vocab.html#storevocab'><font color='#33ccff'>Store Vocabulary (missing)</font></a></td></tr>
+	</table></td></tr></table>
+	<table align='center' border='15' bordercolor='black'>
+	<tr><td><a href='#translator'><font color='white'>On Site Translator</font></a></td></tr>
+	<tr><td><a href='#verbconjugator'><font color='white'>Verb Conjugator</font></a></td></tr></table>
 {% endblock %}
 
 
 {% block content %}
-
 <br /><br /><a name='ne' />
 <br /><font face='arial rounded mt bold' color='white'><big>The Use of Ne</big></font> <font color='white'> <a href='#top'>top</a> </font>
 
@@ -96,5 +102,4 @@
 <br /><b>si sa che...</b> it is common knowledge that...
 <br /><b>si capisce che...</b> it is obvious that...
 <br /><b>si vede che...</b> it is clear that...
-
 {% endblock %}

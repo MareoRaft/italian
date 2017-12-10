@@ -1,61 +1,28 @@
-<head>
+{% extends "template.html" %}
 
-<title>ItalianVocab</title>
+{% block index %}
+	<br /><br /><table bgcolor='#f2f2f2' align='center' width='360' border='15' bordercolor='#f2f2f2'>
+	<tr><td align='center' valign='center'><font face='tahoma' color='#252525'><h2>Italian 1 Vocab</h2></font></td></tr>
+	<tr><td align='center'><a href='#commonverbs'><font color='black'>Some Common Verbs</font></a></td></tr>
+	</table>
 
-<script src='http://www.freewebs.com/the4wizkids/java/italianverbconjugator.js'></script>
-<script src='http://www.freewebs.com/the4wizkids/java/italiantranslator.js'></script>
+	<br /><br /><table bgcolor='#f2f2f2' align='center' width='360' border='15' bordercolor='#f2f2f2'>
+	<tr><td align='center' valign='center'><font face='tahoma' color='#252525'><h2>Italian 2 Vocab</h2></font></td></tr>
+	<tr><td align='center'><a href='#bodypartvocab'><font color='black'>Body Part Vocabulary</font></a></td></tr>
+	<tr><td align='center'><a href='#foodvocab'><font color='black'>Food Vocabulary</font></a></td></tr>
+	<tr><td align='center'><a href='#familyvocab'><font color='black'>Family Vocabulary</font></a></td></tr>
+	<tr><td align='center'><a href='#sportvocab'><font color='black'>Sport Vocabulary</font></a></td></tr>
+	<tr><td align='center'><a href='#weathervocab'><font color='black'>Weather Vocabulary</font></a></td></tr>
+	</table>
 
-</head>
+	<br /><br /><table align='center' cellpadding='4' border='2' bordercolor='#555555' bgcolor='#f2f2f2' width='362'>
+	<tr><td align='center'><font color='#777777'>Extras</font></td></tr>
+	<tr><td align='center'><a href='#translator'><font color='#666666'>On Site Translator</font></a></td></tr>
+	<tr><td align='center'><a href='#verbconjugator'><font color='#666666'>Verb Conjugator</font></a></td></tr></table>
+{% endblock %}
 
-<body bgcolor="#900909" text="#ffffff" link="#eeeeee" vlink="#dddddd" alink="#000000">
 
-<!-- Begin PicoSearch Code -->
-<P><FORM METHOD="GET" ACTION="http://www.picosearch.com/cgi-bin/ts.pl">
-<INPUT TYPE="HIDDEN" NAME="index" VALUE="415046">
-<TABLE BGCOLOR="WHITE" CELLSPACING=0 CELLPADDING=0 BORDER=0 ALIGN="RIGHT"><TR><TD>
-<TABLE BGCOLOR="WHITE" CELLSPACING=2 CELLPADDING=0 BORDER=0>
-<TR><TD><A HREF="http://www.picosearch.com/">
-<IMG BORDER="0" SRC="http://www.picosearch.com/picosmall.gif" ALT="PicoSearch"></A></TD>
-<TD><INPUT TYPE="TEXT" NAME="query" VALUE="" SIZE="20"></TD>
-<TD><INPUT TYPE="SUBMIT" VALUE="Search"></TD></TR>
-</TABLE></TD></TR></TABLE></FORM>
-<!-- End PicoSearch Code -->
-
-<br /><a href='http://www.freewebs.com/the4wizkids/index.htm'>main</a> | <a href='http://www.freewebs.com/the4wizkids/italian.htm'>main italian</a> | <a href='http://www.freewebs.com/the4wizkids/italian/italian2.htm'>italian2</a> | <a
-href='http://www.freewebs.com/the4wizkids/italian/italian3.htm'>italian3</a> | <a href='http://www.freewebs.com/the4wizkids/italian/vocab.htm'>italian vocabulary</a>
-
-<br /><br /><center><font face='tahoma'><h2>Welcome to the Vocabulary Webpage</h2></font>
-
-<table width='70%'><tr><td align='center'><i>Here you will find rules for the basic structure of the Italian language.  This particular site is specifically organized to benefit students taking the Italian2 course.  This site also contains a translator and verb conjugator.  If this site does not fully meet your needs, please submit your greivances in the submit box at the bottom, and we will add more inforation to the site.</i></td>
-
-<td width='200px'><a href='http://www.freewebs.com/the4wizkids/games/scopa.htm'><img src='http://www.freewebs.com/thewizkidsbin/games/scopa.GIF' /></a>
-<br /><br /><font size='2' color='white'>Expirience some Italian culture and play the traditional Italian card game, Scopa!  Warning: do not play this game prior to completing your Italian homework or studying for your Italian test.</font></td></tr></table>
-
-<br /><br /><table width='80%' bgcolor='#f2f2f2' border='1' bordercolor='#999999'>
-<tr><td><font color='black' face='microsoft sans serif' size='2'>Printing on this page!<br /><br />To print anything on this page, highlight what you want to print, click ctrl-p, choose the "Selection" option under "Print Range", then press print.</td></tr></table>
-
-<br /><a href='#bottom'><font color='black' face='cac logo alternate' size='2'>to bottom</font></a><img src='http://www.freewebs.com/thewizkidsbin/bin/tobottom.gif' />
-
-<br /><br /><table bgcolor='#f2f2f2' align='center' width='360' border='15' bordercolor='#f2f2f2'>
-<tr><td align='center' valign='center'><font face='tahoma' color='#252525'><h2>Italian1 Vocab</h2></font></td></tr>
-<tr><td align='center'><a href='#commonverbs'><font color='black'>Some Common Verbs</font></a></td></tr>
-</table>
-
-<br /><br /><table bgcolor='#f2f2f2' align='center' width='360' border='15' bordercolor='#f2f2f2'>
-<tr><td align='center' valign='center'><font face='tahoma' color='#252525'><h2>Italian2 Vocab</h2></font></td></tr>
-<tr><td align='center'><a href='#bodypartvocab'><font color='black'>Body Part Vocabulary</font></a></td></tr>
-<tr><td align='center'><a href='#foodvocab'><font color='black'>Food Vocabulary</font></a></td></tr>
-<tr><td align='center'><a href='#familyvocab'><font color='black'>Family Vocabulary</font></a></td></tr>
-<tr><td align='center'><a href='#sportvocab'><font color='black'>Sport Vocabulary</font></a></td></tr>
-<tr><td align='center'><a href='#weathervocab'><font color='black'>Weather Vocabulary</font></a></td></tr>
-</table>
-
-<br /><br /><table align='center' cellpadding='4' border='2' bordercolor='#555555' bgcolor='#f2f2f2' width='362'>
-<tr><td align='center'><font color='#777777'>Extras</font></td></tr>
-<tr><td align='center'><a href='#translator'><font color='#666666'>On Site Translator</font></a></td></tr>
-<tr><td align='center'><a href='#verbconjugator'><font color='#666666'>Verb Conjugator</font></a></td></tr>
-<tr><td align='center'><a href='#submitquestion'><font color='#666666'>Submit a Question</font></a></td></tr></table>
-
+{% block content %}
 <br /><br /><a name='commonverbs' />
 <br /><font face='bookman old style'><big>Some Common Verbs</big></font> <font color='white'>(<a href='#top'>top</a>)</font>
 
@@ -471,86 +438,4 @@ widowed
 
 <br /><br /><a name='weathervocab' />
 <br /><font face='bookman old style'><big>Weather Vocabulary</big></font> <font color='white'>(<a href='#top'>top</a>)</font>
-
-<br /><br /><a name='translator' />
-<br /><font face='bookman old style'><big>On-Site Translator</big></font> <font color='white'>(<a href='#top'>top</a>)</font>
-
-<br /><br />Use the following translator as a quick reference to any vocabulary listed on this site.  For a more complete translator, please visit <a href='http://www.freetranslation.com' target='translation'>www.freetranslation.com</A>.
-
-<br /><br /><table border="3" bordercolor='white' bgcolor='white'>
-<form name="trans">
-<tr><td align="center"><input type="text" name="a" size="22"></td></tr>
-<tr><td align="center"><input type="text" name="answerOne" size="22" readonly> </td></tr>
-<tr><td align="center"><input type="button" value=' Translate ' onClick="translate()">
-<input type="reset" value=" Clear "></td></tr>
-</form>
-</table>
-
-<br /><br /><a name='verbconjugator' />
-<br /><font face='bookman old style'><big>Verb Conjugator</big></font> <font color='white'>(<a href='#top'>top</a>)</font>
-
-<br /><br />This conjugator will work for any regular verbs and a few irregular.  It currently handles presente, passato, passato remoto, imperfetto, trapassato, trapassato remoto, futuro, and futuro anteriore tenses.  You may input the tense in Italian or English, but the program is glitchy and some of the English tenses won't work.  The conjugator can also handle reflexive and reciprocol verbs.  Another good site for verb conjugation is <a href='http://www.verbix.com/languages/italian.shtml'>www.verbix.com/languages/italian.shtml</a>.  I learned many new tenses from this site.
-
-<form name="conj">
-<br />Conjugation of <input type="text" size="10" name="verb"> in the <input type="text" size="10" name="tense"> tense:
-<br /><br /><input type="button" value="Conjugate" onclick="conjugateverb()">
-<br /><br /><table border="3" bordercolor="white" bgcolor="white">
-<tr><td><font color='black'>io</font></td><td><input type="text" size="20" name="ioform" readonly></td></tr>
-<tr><td><font color='black'>tu</font></td><td><input type="text" size="20" name="tuform" readonly></td></tr>
-<tr><td><font color='black'>lui/lei</font></td><td><input type="text" size="20" name="luileiform" readonly></td></tr>
-<tr><td><font color='black'>noi</font></td><td><input type="text" size="20" name="noiform" readonly></td></tr>
-<tr><td><font color='black'>voi</font></td><td><input type="text" size="20" name="voiform" readonly></td></tr>
-<tr><td><font color='black'>loro</font></td><td><input type="text" size="20" name="loroform" readonly></td></tr></table>
-</form>
-
-<br /><br /><a name='submitquestion' />
-<br /><font face='bookman old style'><big>Submit a Question</big></font> <font color='white'>(<a href='#top'>top</a>)</font>
-
-<form action="http://members.freewebs.com/formMail.jsp" method="post">
-<input type="hidden" name="userid" value="16012652">
-<input type="hidden" name="next" value="http://www.freewebs.com/the4wizkids/index.htm">
-
-<table align='center' border='10' bordercolor='black'><tr><td><table cellpadding='5' align='center' width='625' hight='350' bgcolor='black' border='2' bordercolor='white'>
-<tr><td><center><i><big><font color='white'>Question Submitter</font></big></i></center></td></tr>
-<tr><td align='right'><i><font color='white'>Would you like us to email you your response?  email address: <input type="text" name="Email" align="top" maxlength="25" size="30"></font></i>
-<br /><i><font color='white'>Would you like us to post our answer on the site?  nickname: <input type="text" name="nickname" align="top" maxlength="25" size="30"></font></i></td></tr>
-<tr><td align='center'><textarea cols=74 rows=10 name="Question"></textarea></td></tr>
-<tr><td align='center'><input type="" name="Submit" value="       Submit Question       " />
-<input type="reset" name="Reset" value="         Reset Boxes         " />
-<input type="button" value="         Terms of use         " onClick='alert("Terms of Use\n\nWe do our best to find the information you desire, but we are not experts. The Wiz Kids are not responsible for any unsatisfactory results of the information attained on this site.  Once you ask a question or take information, you are agreeing to these terms.  Your email address is confidential and will be disposed of within thirty days of receival. If in your question you request the information be disposed of immediately, we will do so. Each question is looked at individually, so you may not ask us to refer to your previous message or anything like that.  If you have any questions, please access our questions page and we will gladly respond.\n\n.")' />
-</td></tr></table></td></tr></table>
-
-</form>
-
-</center><i>If you have any questions for the wizkids that do not fit in any of these subject catagories or are unrelated to subjects in genral, then send us a message from the Questions Page.  Any suggestions that may help us to improve our website would also be greatly appreciated.
-
-<br /><br />If you ever encounter any broken or empty links, please inform us!  You will do us a great favor, and our visitors will have an easier time navigating through our site.  Thank you!!!</i>
-
-<br /><br /><center><a href='#top'><font face='cac logo alternate' size='2'>to top</font></a><img src='http://www.freewebs.com/thewizkidsbin/bin/totop.gif' /></center>
-
-<br /><hr>
-
-<br /><table align='center'>
-<tr><td><a href='http://www.freewebs.com/the4wizkids/termsofuse.htm'><img src='http://www.freewebs.com/the4wizkids/button/totermsofuse.gif'></a></td>
-<td><a href='http://www.freewebs.com/the4wizkids/index.htm'><img src='http://www.freewebs.com/the4wizkids/button/toindex.gif'></a></td>
-<td><a href='http://www.freewebs.com/the4wizkids/questions.htm'><img src='http://www.freewebs.com/the4wizkids/button/toquestions.gif'></a></td></tr></table>
-
-<table align='center'>
-<tr><td><a href='http://www.freewebs.com/the4wizkids/literacy.htm'><img src='http://www.freewebs.com/the4wizkids/button/toliteracy.gif'></a></td>
-<td><a href='http://www.freewebs.com/the4wizkids/math.htm'><img src='http://www.freewebs.com/the4wizkids/button/tomath.gif'></a></td>
-<td><a href='http://www.freewebs.com/the4wizkids/music.htm'><img src='http://www.freewebs.com/the4wizkids/button/tomusic.gif'></a></td>
-<td><a href='http://www.freewebs.com/the4wizkids/science.htm'><img src='http://www.freewebs.com/the4wizkids/button/toscience.gif'></a></td></tr></table>
-
-<table align='center'>
-<tr><td><a href='http://www.freewebs.com/the4wizkids/italian.htm'><img src='http://www.freewebs.com/the4wizkids/button/toitalian.gif'></a></td>
-<td><a href='http://www.freewebs.com/the4wizkids/latin.htm'><img src='http://www.freewebs.com/the4wizkids/button/tolatin.gif'></a></td>
-<td><a href='http://www.freewebs.com/the4wizkids/spanish.htm'><img src='http://www.freewebs.com/the4wizkids/button/tospanish.gif'></a></td></tr></table>
-
-
-<a name='bottom' />
-
-</body>
-
-</html>
-
-
+{% endblock %}
