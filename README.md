@@ -5,3 +5,4 @@ My goal now is simply to
   * make the code a bit smarter
   * fix a few typos and italian grammar errors
   * store this safely on GitHub
+  * See if Scopa ever worked?  If so, migrate it too
