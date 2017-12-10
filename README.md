@@ -1,4 +1,4 @@
-I originally wrote these websites so that myself and other people could learn italian.  It covers the material I learned in high school.  The original is still hosted on http://www.freewebs.com/the4wizkids/italian.htm.  The new version is hosted on learnnation.org/italian
+I originally wrote these websites so that myself and other people could learn italian.  It covers the material I learned in high school.  The original is still hosted on http://www.freewebs.com/the4wizkids/italian.htm.  The new version is hosted on http://learnnation.org/italian/1.html.
 
 My goal now is simply to
 
