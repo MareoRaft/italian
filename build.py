@@ -1,4 +1,4 @@
-from shutil import rmtree
+from shutil import rmtree, copyfile
 from os import mkdir
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape, Markup # jinja2: see http://jinja.pocoo.org/docs/2.10/api/ and http://jinja.pocoo.org/docs/2.10/templates/#extends
@@ -36,24 +36,26 @@ course_name_to_info = {
 		'alink': 'black',
 	},
 }
-# also grab content from 1-content.html and others
-
-env = Environment(
-	loader=FileSystemLoader('.'),
-	autoescape=select_autoescape(['html']))
 
 # remove build dir and replace with empty build dir
 rmtree(BUILD_DIR)
 mkdir(BUILD_DIR)
 
+# generate the HTML files using jinja2 templates
+env = Environment(
+	loader=FileSystemLoader('.'),
+	autoescape=select_autoescape(['html']))
 for course_name, dic in course_name_to_info.items():
 	dic.update({
 		'course_name': course_name.capitalize(),
 		'banner_snippet': banner_snippet,
 	})
-	template = env.get_template('{}-content.html'.format(course_name))
+	template = env.get_template('content/{}.html'.format(course_name))
 	rendered_html = template.render(dic)
 	rel_output_path = '{}/{}.html'.format(BUILD_DIR, course_name)
 	with open(rel_output_path, 'w') as file:
 		file.write(rendered_html)
 
+# copy the JS files into place
+for fileprefix in ['translator', 'verb-conjugator']:
+	copyfile('{}.js'.format(fileprefix), '{}/{}.js'.format(BUILD_DIR, fileprefix))
