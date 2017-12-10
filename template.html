@@ -1,8 +1,8 @@
 <html>
 <head>
 	<title>Italian {{ course_name }}</title>
-	<script src='verb-conjugator.js'></script>
 	<script src='translator.js'></script>
+	<script src='verb-conjugator.js'></script>
 </head>
 
 <body bgcolor="{{bgcolor}}" text="{{text}}" link="{{link}}" vlink="{{vlink}}" alink="{{alink}}">
@@ -30,14 +30,14 @@
 
 <br /><br />Use the following translator as a quick reference to any vocabulary listed on this site.  For a more complete translator, please visit <a href='http://www.freetranslation.com' target='translation'>www.freetranslation.com</A>.
 
-<br /><br /><table border="3" bordercolor='white' bgcolor='white'>
 <form name="trans">
-<tr><td align="center"><input type="text" name="a" size="22"></td></tr>
-<tr><td align="center"><input type="text" name="answerOne" size="22" readonly> </td></tr>
-<tr><td align="center"><input type="button" value=' Translate ' onClick="translate()">
+<br /><br /><table border="3" bordercolor='white' bgcolor='white'>
+<tr><td align="center"><input type="text" name="word" size="22"></td></tr>
+<tr><td align="center"><input type="text" name="answer" size="22" readonly></td></tr>
+<tr><td align="center"><input type="button" value=" Translate " onclick="translateword()">
 <input type="reset" value=" Clear "></td></tr>
-</form>
 </table>
+</form>
 
 <br /><br /><a name='verbconjugator' />
 <br /><font face='arial rounded mt bold'><big>Verb Conjugator</big></font> <font color='white'> <a href='#top'>top</a> </font>
