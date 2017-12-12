@@ -5,7 +5,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape, Markup # ji
 
 BUILD_DIR = '_build'
 
-banner_snippet = Markup("<a href='1.html'>italian 1</a> | <a href='2.html'>italian 2</a> | <a href='3.html'>italian 3</a> | <a href='vocab.html'>italian vocabulary</a>")
+banner_snippet = Markup("<a href='1.html'>italian 1</a> | <a href='2.html'>italian 2</a> | <a href='3.html'>italian 3</a> | <a href='∞.html'>italian ∞</a> | <a href='vocab.html'>italian vocabulary</a>")
 course_name_to_info = {
 	'1': {
 		'bgcolor': "#efefef",
