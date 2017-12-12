@@ -1,0 +1,50 @@
+{% extends "template.html" %}
+
+{% block index %}
+	<br /><br /><table align='center' border='1' bordercolor='#33ccff'><tr><td><table align='center' width='300' border='14' bordercolor='black'>
+	<tr><td align='center' valign='center'><font face='tahoma' color='white'><h2>Italian {{ course_name }}</h2></font></td></tr>
+	<tr><td align='center'><a href='#determiners'><font color='#33ccff'>Determiners</font></a></td></tr>
+	</table></td></tr></table>
+	<br /><br /><table align='center' border='1' bordercolor='#33ccff'><tr><td><table align='center' width='300' border='14' bordercolor='black'>
+	<tr><td align='center' valign='center'><font face='tahoma' color='white'><h2>Italian {{ course_name }} Vocab</h2></font></td></tr>
+	<tr><td align='center'><a href='Vocab.html#storevocab'><font color='#33ccff'></font></a></td></tr>
+	</table></td></tr></table>
+	<table align='center' border='15' bordercolor='black'>
+	<tr><td><a href='#translator'><font color='white'>On Site Translator</font></a></td></tr>
+	<tr><td><a href='#verbconjugator'><font color='white'>Verb Conjugator</font></a></td></tr></table>
+{% endblock %}
+
+
+{% block content %}
+<br /><br /><a name='determiners' />
+<br /><font face='arial rounded mt bold' color='white'><big>Determiners</big></font> <font color='white'> <a href='#top'>top</a> </font>
+
+<br /><br />Stuff about things
+
+
+<br /><br />``Determiners'' just means adjectives that have to do with amountsish.  The ENDINGS of the adjectives must agree with the noun plurality and gender, except for qualunque and qualsiasi.
+
+A little to a lot
+------------------
+nessuno - none (``not one'')
+niente - none
+qualunque - any
+qualsiasi - any
+poco - little
+alcuni - some
+molti - many
+parecchie - many
+tutto - everything
+
+Note: qualunque and qualsiasi are interchangeable.
+
+
+Misc
+---------
+questi - these
+quelli - those
+altro - other
+diversi - diverse
+
+
+{% endblock %}

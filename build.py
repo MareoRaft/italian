@@ -35,6 +35,13 @@ course_name_to_info = {
 		'vlink': "#ddd",
 		'alink': 'black',
 	},
+	'∞': {
+		'bgcolor': "cyan",
+		'text': 'navy',
+		'link': 'blue',
+		'vlink': 'blue',
+		'alink': 'white',
+	},
 }
 
 # remove build dir and replace with empty build dir
