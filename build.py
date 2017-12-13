@@ -11,7 +11,7 @@ def is_server():
 	out_bytes = run(['uname', '-n'], check=True, stdout=PIPE).stdout
 	out_str = out_bytes.decode()
 	out_clean = out_str.strip()
-	return out_clean == 'FreeBSD'
+	return out_clean == 'guava'
 
 BUILD_DIR = '_build'
 if is_server():
