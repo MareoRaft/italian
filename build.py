@@ -3,12 +3,19 @@
 from shutil import rmtree, copyfile
 from os import mkdir
 from subprocess import run, PIPE
+from sys import version_info
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape, Markup # jinja2: see http://jinja.pocoo.org/docs/2.10/api/ and http://jinja.pocoo.org/docs/2.10/templates/#extends
 
+if version_info[0] != 3:
+	raise SystemExit('Please use Python 3.')
+
 def is_server():
 	""" detects if we are on the server or not """
-	out_bytes = run(['uname', '-n'], check=True, stdout=PIPE).stdout
+	if version_info[1] <= 4: # sys.version_info[1] is the MINOR version
+		out_bytes = check_output(['uname', '-n'])
+	else:
+		out_bytes = run(['uname', '-n'], check=True, stdout=PIPE).stdout
 	out_str = out_bytes.decode()
 	out_clean = out_str.strip()
 	return out_clean == 'guava'
