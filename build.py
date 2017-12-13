@@ -82,8 +82,8 @@ for course_name, dic in course_name_to_info.items():
 	with open(rel_output_path, 'w') as file:
 		file.write(rendered_html)
 
-# copy the JS files into place
-for fileprefix in ['translator', 'verb-conjugator']:
-	copyfile('{}.js'.format(fileprefix), '{}/{}.js'.format(BUILD_DIR, fileprefix))
+# copy other needed files into place
+for filename in ['translator.js', 'verb-conjugator.js', 'style.css']:
+	copyfile('{}'.format(filename), '{}/{}'.format(BUILD_DIR, filename))
 
 
