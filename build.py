@@ -2,7 +2,7 @@
 
 from shutil import rmtree, copyfile
 from os import mkdir
-from subprocess import run, PIPE
+from subprocess import run, PIPE, check_output
 from sys import version_info
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape, Markup # jinja2: see http://jinja.pocoo.org/docs/2.10/api/ and http://jinja.pocoo.org/docs/2.10/templates/#extends
