@@ -1,19 +1,47 @@
 {% extends "template.html" %}
 
+{% macro index_row(name, title, color='black') -%}
+	<tr><td align='center'><a href='#{{ name }}'><font color='{{ color }}'>{{ title }}</font></a></td></tr>
+{% endmacro -%}
+{% macro index_table(rows) -%}
+
+	<table class='it-en'>
+	{% for row in rows %}
+		{{ it_en_row(*row) }}
+	{% endfor -%}
+	</table>
+{% endmacro -%}
+{% macro it_en_row(it="", en="", it_note="", en_note="") -%}
+	<tr><td>{{ '('+it_note+')' if it_note != "" }}</td><td>{{ it }}</td><td> &#x2014; </td><td>{{ en }}</td><td>{{ '('+en_note+')' if en_note != "" }}</td></tr>
+{% endmacro -%}
+{% macro it_en_table(rows) -%}
+	<table class='it-en'>
+	{% for row in rows %}
+		{{ it_en_row(*row) }}
+	{% endfor -%}
+	</table>
+{% endmacro -%}
+{% macro section(name, title) -%}
+	<a name={{ name }} />
+	<br /><font face='bookman old style'><big>{{ title }}</big></font> <font color='white'>(<a href='#top'>top</a>)</font>
+{% endmacro -%}
+
+
 {% block index %}
 	<br /><br /><table bgcolor='#f2f2f2' align='center' width='360' border='15' bordercolor='#f2f2f2'>
 	<tr><td align='center' valign='center'><font color='#252525'><h2>Italian 1 Vocab</h2></font></td></tr>
-	<tr><td align='center'><a href='#commonverbs'><font color='black'>Some Common Verbs</font></a></td></tr>
+	('commonverbs', 'Some Common Verbs'),
 	</table>
 
-	<br /><br /><table bgcolor='#f2f2f2' align='center' width='360' border='15' bordercolor='#f2f2f2'>
+
 	<tr><td align='center' valign='center'><font color='#252525'><h2>Italian 2 Vocab</h2></font></td></tr>
-	<tr><td align='center'><a href='#bodypartvocab'><font color='black'>Body Part Vocabulary</font></a></td></tr>
-	<tr><td align='center'><a href='#foodvocab'><font color='black'>Food Vocabulary</font></a></td></tr>
-	<tr><td align='center'><a href='#familyvocab'><font color='black'>Family Vocabulary</font></a></td></tr>
-	<tr><td align='center'><a href='#sportvocab'><font color='black'>Sport Vocabulary</font></a></td></tr>
-	<tr><td align='center'><a href='#weathervocab'><font color='black'>Weather Vocabulary</font></a></td></tr>
-	<tr><td align='center'><a href='#rareverbs'><font color='black'>Uncommon Verbs Vocabulary</font></a></td></tr>
+	('bodypartvocab', 'Body Part Vocabulary'),
+	('foodvocab', 'Food Vocabulary'),
+
+	('familyvocab', 'Family Vocabulary'),
+	('sportvocab', 'Sport Vocabulary'),
+	<!-- ('weathervocab', 'Weather Vocabulary'), -->
+	('rareverbs', 'Uncommon Verbs Vocabulary'),
 	</table>
 
 	<br /><br /><table align='center' cellpadding='4' border='2' bordercolor='#555555' bgcolor='#f2f2f2' width='362'>
@@ -437,37 +465,70 @@ widowed
 <td>camminare</td><td>to walk</td></tr>
 </table>
 
-<br /><br /><a name='weathervocab' />
+<!-- <br /><br /><a name='weathervocab' />
 <br /><font face='bookman old style'><big>Weather Vocabulary</big></font> <font color='white'>(<a href='#top'>top</a>)</font>
-
-<a name='rareverbs' />
-<br /><font face='bookman old style'><big>Uncommon Verbs Vocabulary</big></font> <font color='white'>(<a href='#top'>top</a>)</font>
-
-(``Spingiamo la macchina'') spingere - to push
-prestare - to lend
-guadagnare - to earn
-(``lei sposta tutti i piatti'')spostare - to move
-rompersi - to break
-(`` non feriamo i bambini!'')ferire - to hurt
-riempire - to fill (kindof refill)
-(``loro non mentono mai'')mentire - to lie
-(``So perchèè fallisci'')fallire - to fail
-supporre - to suppose (IRREGULAR. for realz!)
-allenarsi - to train
-pianificare - to plan
-svuotare - to empty (recall that <i>vuoto</i> means ``empty'')
-friggere - to fry
+ -->
+{{ section('rareverbs', 'Uncommon Verbs Vocabulary') }}
+<table class='it-en'>
+	<tr><td>(ex: "Spingiamo la macchina")</td><td>spingere</td><td> &#x2014; </td><td>to push</td><td></td></tr>
+	<tr><td></td><td>prestare</td><td> &#x2014; </td><td>to lend</td><td></td></tr>
+	<tr><td></td><td>guadagnare</td><td> &#x2014; </td><td>to earn</td><td></td></tr>
+	<tr><td>("lei sposta tutti i piatti")</td><td>spostare</td><td> &#x2014; </td><td>to move</td><td></td></tr>
+	<tr><td></td><td>rompersi</td><td> &#x2014; </td><td>to break</td><td></td></tr>
+	<tr><td>(ex: "non feriamo i bambini!")</td><td>ferire</td><td> &#x2014; </td><td>to hurt</td><td></td></tr>
+	<tr><td></td><td>riempire</td><td> &#x2014; </td><td>to fill</td><td>(kindof refill)</td></tr>
+	<tr><td>(ex: "loro non mentono mai")</td><td>mentire</td><td> &#x2014; </td><td>to lie</td><td></td></tr>
+	<tr><td>(ex: "So perchè fallisci")</td><td>fallire</td><td> &#x2014; </td><td>to fail</td><td></td></tr>
+	<tr><td></td><td>supporre</td><td> &#x2014; </td><td>to suppose</td><td>(IRREGULAR. for realz!)</td></tr>
+	<tr><td></td><td>allenarsi</td><td> &#x2014; </td><td>to train</td><td></td></tr>
+	<tr><td></td><td>pianificare</td><td> &#x2014; </td><td>to plan</td><td></td></tr>
+	<tr><td></td><td>svuotare</td><td> &#x2014; </td><td>to empty</td><td>(recall that <i>vuoto</i> means "empty")</td></tr>
+	<tr><td></td><td>friggere</td><td> &#x2014; </td><td>to fry</td><td></td></tr>
+</table>
 
 
 past tense of vivere is vissuto
 
 "da dove" not "di dove".  "from where"
 
+I have not heard him arrive
+Non l'ho sentito arrivato
 
 
 
 -----
 notes: di nuova - again
+
+
+school vocab
+-------------
+{{
+	it_en_table([
+		('aula', 'classroom'),
+		('lezioni', 'class', '', 'lessons'),
+		('alunni', 'schoolkid'),
+		('college', 'college', '', 'yes really!'),
+		('concetto', 'concept'),
+		('corso', 'course'),
+		('la descrizione', 'description'),
+		('laurea', 'degree'),
+		('la tesi', 'thesis'),
+		('seguire', 'to follow'),
+		('voti', 'grades'),
+		('pagella', 'school report'),
+		('la prova', 'the evidence', '', 'proof'),
+		('il testo', 'the text'),
+	])
+}}
+
+
+
+misc vocab
+---------
+(interno, around, )
+
+
+
 
 
 {% endblock %}

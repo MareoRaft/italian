@@ -4,6 +4,13 @@ h2 {
 
 
 
-.it {
+table.it-en td:nth-child(1) {
 	text-align: right;
+}
+table.it-en td:nth-child(2) {
+	text-align: right;
+	font-style: italic;
+}
+table.it-en td:nth-child(3) {
+	text-align: center;
 }
