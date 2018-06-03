@@ -66,6 +66,8 @@ course_name_to_info = {
 # remove build dir and replace with empty build dir
 rmtree(BUILD_DIR)
 mkdir(BUILD_DIR)
+with open(BUILD_DIR + '/README.md', 'w') as f:
+    f.write('This directory is where the built website will be populated.\n')
 
 # generate the HTML files using jinja2 templates
 env = Environment(
