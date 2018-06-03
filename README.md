@@ -7,4 +7,8 @@ My goal now is simply to
   * store this safely on GitHub
   * See if Scopa ever worked?  If so, migrate it too
 
+## install
+sudo python3 /usr/local/bin/pip install jinja2
+
+## build
 To generate the html and js files, run `python3 build.py`, which outputs to _build.  This is the final output that can be hosted.
