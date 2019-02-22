@@ -24,7 +24,7 @@ BUILD_DIR = '_build'
 if is_server():
 	BUILD_DIR = '/home/freebsd/static-file-server/italian'
 
-banner_snippet = Markup("<a href='1.html'>italian 1</a> | <a href='2.html'>italian 2</a> | <a href='3.html'>italian 3</a> | <a href='∞.html'>italian ∞</a> | <a href='vocab.html'>italian vocabulary</a>")
+banner_snippet = Markup("<a href='1.html'>italian 1</a> | <a href='2.html'>italian 2</a> | <a href='3.html'>italian 3</a> | <a href='infinity.html'>italian infinity</a> | <a href='vocab.html'>italian vocabulary</a>")
 course_name_to_info = {
 	'1': {
 		'bgcolor': "#efefef",
@@ -54,7 +54,7 @@ course_name_to_info = {
 		'vlink': "#ddd",
 		'alink': 'black',
 	},
-	'∞': {
+	'infinity': {
 		'bgcolor': "cyan",
 		'text': 'navy',
 		'link': 'blue',
