@@ -1,91 +1,72 @@
 #!/usr/bin/env python3
 
-from shutil import rmtree, copyfile
-from os import mkdir
-from subprocess import run, PIPE, check_output
 from sys import version_info
+from os import path, mkdir
+from shutil import rmtree, copyfile
 
-from jinja2 import Environment, FileSystemLoader, select_autoescape, Markup # jinja2: see http://jinja.pocoo.org/docs/2.10/api/ and http://jinja.pocoo.org/docs/2.10/templates/#extends
+# jinja2: see http://jinja.pocoo.org/docs/2.10/api/ and http://jinja.pocoo.org/docs/2.10/templates/#extends
+from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-if version_info[0] != 3:
-	raise SystemExit('Please use Python 3.')
+from vars import course_name_to_info, banner_snippet
+from utils import run, is_server
 
-def is_server():
-	""" detects if we are on the server or not """
-	if version_info[1] <= 4: # sys.version_info[1] is the MINOR version
-		out_bytes = check_output(['uname', '-n'])
-	else:
-		out_bytes = run(['uname', '-n'], check=True, stdout=PIPE).stdout
-	out_str = out_bytes.decode()
-	out_clean = out_str.strip()
-	return out_clean == 'guava'
-
-BUILD_DIR = '_build'
+PATH = dict()
+PATH['repo'] = '/Users/Matthew/programming/italian'
+PATH['source'] = path.join(PATH['repo'], 'source')
+PATH['build'] = path.join(PATH['repo'], '_build')
 if is_server():
-	BUILD_DIR = '/home/freebsd/static-file-server/italian'
+	PATH['build'] = '/home/freebsd/static-file-server/italian'
 
-banner_snippet = Markup("<a href='1.html'>italian 1</a> | <a href='2.html'>italian 2</a> | <a href='3.html'>italian 3</a> | <a href='infinity.html'>italian infinity</a> | <a href='vocab.html'>italian vocabulary</a>")
-course_name_to_info = {
-	'1': {
-		'bgcolor': "#efefef",
-		'text': "#282828",
-		'link': "#414141",
-		'vlink': "#353535",
-		'alink': "#ffaaff",
-	},
-	'2': {
-		'bgcolor': "#5028c9",
-		'text': "#ffff00",
-		'link': "white",
-		'vlink': "white",
-		'alink': "white",
-	},
-	'3': {
-		'bgcolor': "black",
-		'text': '#33ccff',
-		'link': 'blue',
-		'vlink': 'blue',
-		'alink': 'white',
-	},
-	'vocab': {
-		'bgcolor': "#900909",
-		'text': 'white',
-		'link': '#eee',
-		'vlink': "#ddd",
-		'alink': 'black',
-	},
-	'infinity': {
-		'bgcolor': "cyan",
-		'text': 'navy',
-		'link': 'blue',
-		'vlink': 'blue',
-		'alink': 'white',
-	},
-}
+def build_js():
+	""" generate JavaScript bundle using browserify """
+	run(['browserify', './source/scripts/main.js', '-o', './_build/scripts/bundle.js'])
 
-# remove build dir and replace with empty build dir
-rmtree(BUILD_DIR)
-mkdir(BUILD_DIR)
-with open(BUILD_DIR + '/README.md', 'w') as f:
-    f.write('This directory is where the built website will be populated.\n')
+def build_readme():
+	""" put a README in the build directory """
+	with open(PATH['build'] + '/README.md', 'w') as f:
+	    f.write('This directory is where the built website will be populated.\n')
 
-# generate the HTML files using jinja2 templates
-env = Environment(
-	loader=FileSystemLoader('.'),
-	autoescape=select_autoescape(['html']))
-for course_name, dic in course_name_to_info.items():
-	dic.update({
-		'course_name': course_name.capitalize(),
-		'banner_snippet': banner_snippet,
-	})
-	template = env.get_template('content/{}.html'.format(course_name))
-	rendered_html = template.render(dic)
-	rel_output_path = '{}/{}.html'.format(BUILD_DIR, course_name)
-	with open(rel_output_path, 'w') as file:
-		file.write(rendered_html)
+def build_dirs():
+	""" remove build dir and replace with empty build dirs """
+	rmtree(PATH['build'])
+	mkdir(PATH['build'])
+	mkdir(path.join(PATH['build'], 'scripts'))
 
-# copy other needed files into place
-for filename in ['translator.js', 'verb-conjugator.js', 'style.css']:
-	copyfile('{}'.format(filename), '{}/{}'.format(BUILD_DIR, filename))
+def build_static_files():
+	""" copy other needed files into place """
+	for filename in ['style.css']:
+		path_from = path.join(PATH['source'], filename)
+		path_to = path.join(PATH['build'], filename)
+		copyfile(path_from, path_to)
 
+def build_html():
+	""" generate the HTML files using jinja2 templates """
+	env = Environment(
+			loader=FileSystemLoader(PATH['source']),
+			autoescape=select_autoescape(['html']))
+	for course_name, dic in course_name_to_info.items():
+		dic.update({
+			'course_name': course_name.capitalize(),
+			'banner_snippet': banner_snippet,
+		})
+		template = env.get_template('content/{}.html'.format(course_name))
+		rendered_html = template.render(dic)
+		rel_output_path = '{}/{}.html'.format(PATH['build'], course_name)
+		with open(rel_output_path, 'w') as file:
+			file.write(rendered_html)
+
+def build():
+	build_dirs()
+	build_static_files()
+	build_readme()
+	build_js()
+	build_html()
+
+def main():
+	if version_info[0] != 3:
+		raise SystemExit('Please use Python 3.')
+	build()
+
+if __name__ == '__main__':
+	main()
 
