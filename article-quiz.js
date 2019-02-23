@@ -3,6 +3,7 @@ let LEXICON = ['settimana', 'anno', 'calendario', 'secondo', 'ora', 'minuto', 'o
 
 let ARTICLE_TYPES = ['definite', 'indefinite', 'beautiful']
 let PLURALITIES = ['singular', 'plural']
+let CONSONANTS = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z']
 let STARTS_WITH_TYPE_DICT = {
 	special: ['s + constanant!', 'ps', 'pn', 'gn', 'y', 'z'],
 	vowel: ['a', 'e', 'i', 'o', 'u', 'h']
@@ -152,10 +153,15 @@ function getGender(noun) {
 }
 
 function getStartsWithType(noun, gender) {
-	if (gender === 'masculine' && startsWith(STARTS_WITH_TYPE_DICT['special'])) {
-		return 'special'
+	if (gender === 'masculine') {
+		if (startsWith(noun, STARTS_WITH_TYPE_DICT['special'])) {
+			return 'special'
+		}
+		else if (noun.length >= 2 && startsWith(noun, ['s']) && startsWith(noun[1], CONSONANTS)) {
+			return 'special'
+		}
 	}
-	else if (startsWith(STARTS_WITH_TYPE_DICT['vowel'])) {
+	else if (startsWith(noun, STARTS_WITH_TYPE_DICT['vowel'])) {
 		return 'vowel'
 	}
 	else {
