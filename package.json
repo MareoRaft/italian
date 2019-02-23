@@ -1,0 +1,25 @@
+{
+  "name": "italian",
+  "productName": "Italian",
+  "version": "1.0.0",
+  "description": "Website for Italian notes.",
+  "repository": "https://github.com/MareoRaft/italian",
+  "homepage": "http://learnnation.org/italian",
+  "keywords": [],
+  "author": "Matthew Lancellotti",
+  "license": "copyright",
+  "main": "build/scripts/main.js",
+  "scripts": {},
+  "dependencies": {
+    "check-types": "^7.4.0",
+    "csv-parse": "^2.5.0",
+    "datejs": "^1.0.0-rc3",
+    "gulp": "^4.0.0",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-for-compass": "0.0.2"
+  }
+}

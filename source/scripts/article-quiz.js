@@ -1,3 +1,5 @@
+var _ = require('lodash')
+
 // this should be a separate file:
 let LEXICON = ['settimana', 'anno', 'calendario', 'secondo', 'ora', 'minuto', 'orologio', 'birra', 'vino', 'acqua', 'manzo', 'pollo', 'agnello', 'infermiera', 'impiegato', 'cuoco']
 
@@ -86,16 +88,13 @@ let ARTICLE_DICT = {
 	},
 };
 
-function startsWith() {
-	// see if in lodash
-}
-
-function endsWith() {
-	// see if in lodash
+function startsWithOneOf(string, targets) {
+	// todo: make your own folds library
+	return _.some(_.map(targets, target => _.startsWith(string, target)))
 }
 
 function print(string) {
-
+	alert(string)
 }
 
 function randNoun() {
@@ -136,15 +135,16 @@ function applyPlurality(noun, plurality) {
 }
 
 function applySpace(article) {
-	let whitespace = (article ends with ')? '': ' '
+	let whitespace = (_.endsWith(article, '\''))? '': ' '
 	return `${article}${whitespace}`
 }
 
 function getGender(noun) {
 	// can ONLY handle REGULAR nouns in the sense that the ENDING should tell if it's masculine or feminine
-	if (endsWith(noun, 'a')) {
+	if (_.endsWith(noun, 'a')) {
 		return 'feminine'
-	else if (endsWith(noun, 'o')) {
+	}
+	else if (_.endsWith(noun, 'o')) {
 		return 'masculine'
 	}
 	else {
@@ -154,14 +154,14 @@ function getGender(noun) {
 
 function getStartsWithType(noun, gender) {
 	if (gender === 'masculine') {
-		if (startsWith(noun, STARTS_WITH_TYPE_DICT['special'])) {
+		if (startsWithOneOf(noun, STARTS_WITH_TYPE_DICT['special'])) {
 			return 'special'
 		}
-		else if (noun.length >= 2 && startsWith(noun, ['s']) && startsWith(noun[1], CONSONANTS)) {
+		else if (noun.length >= 2 && _.startsWith(noun, 's') && startsWithOneOf(noun[1], CONSONANTS)) {
 			return 'special'
 		}
 	}
-	else if (startsWith(noun, STARTS_WITH_TYPE_DICT['vowel'])) {
+	else if (startsWithOneOf(noun, STARTS_WITH_TYPE_DICT['vowel'])) {
 		return 'vowel'
 	}
 	else {
@@ -183,10 +183,12 @@ function round() {
 }
 
 function main() {
-	print('directions.  choose if you want to work with 'the', 'a', or 'bel'.  read the noun.  determine the article.  determine the plural version of the noun and article.')
+	print("directions.  choose if you want to work with 'the', 'a', or 'bel'.  read the noun.  determine the article.  determine the plural version of the noun and article.")
 	while (true) {
 		round()		
 	}
 }
 
-main()
+module.exports = {
+	main: main,
+}
