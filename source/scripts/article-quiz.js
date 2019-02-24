@@ -62,9 +62,9 @@ function applyPlurality(noun, plurality) {
 	}
 }
 
-function applySpace(article) {
+function getWhitespace(article) {
 	let whitespace = (_.endsWith(article, '\''))? '': ' '
-	return `${article}${whitespace}`
+	return whitespace
 }
 
 function getGender(noun) {
@@ -102,17 +102,21 @@ class RandQuestion {
 		this.plurality = randPlurality()
 	}
 
+	toString() {
+		return `${this.article_type} ${this.noun} ${this.plurality}`
+	}
+
 	answer() {
-		let noun = this.noun
+		let noun_original = this.noun
 		let article_type = this.article_type
 		let plurality = this.plurality
 
-		let gender = getGender(noun)
-		let starts_with_type = getStartsWithType(noun, gender)
+		let gender = getGender(noun_original)
+		let starts_with_type = getStartsWithType(noun_original, gender)
 		let article = ARTICLE_DICT[gender][starts_with_type][article_type][plurality]
-		let correct_article_with_whitespace = applySpace(article)
-		let correct_noun = applyPlurality(noun, plurality)
-		let answer = `${correct_article_with_whitespace}${correct_noun}`
+		let whitespace = getWhitespace(article)
+		let noun_final = applyPlurality(noun_original, plurality)
+		let answer = `${article}${whitespace}${noun_final}`
 		return answer
 	}
 }
@@ -120,13 +124,16 @@ class RandQuestion {
 function showNewQuestion() {
 	// generate random question and show on screen
 	question = new RandQuestion()
-	print(question)
+	articlequiz.question.value = question.toString()
+
+	// clear out the old answer, to avoid confusion
+	articlequiz.answer.value = ''
 }
 
 function showAnswer() {
 	// show the answer of the current question
 	answer = question.answer()
-	print(answer)
+	articlequiz.answer.value = answer
 }
 
 module.exports = {
