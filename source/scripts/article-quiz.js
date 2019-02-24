@@ -1,101 +1,19 @@
 const _ = require('lodash')
 const __ = require('./lib/common-utils.js')
+const {LEXICON, ARTICLE_TYPES, PLURALITIES, CONSONANTS, STARTS_WITH_TYPE_DICT, ARTICLE_DICT} = require('./lib/article-quiz-constants.js')
 
-// this should be a separate file:
-let LEXICON = ['settimana', 'anno', 'calendario', 'secondo', 'ora', 'minuto', 'orologio', 'birra', 'vino', 'acqua', 'manzo', 'pollo', 'agnello', 'infermiera', 'impiegato']
+// GLOBALS
+question = undefined
+answer = undefined
 
-let ARTICLE_TYPES = ['definite', 'indefinite', 'beautiful']
-let PLURALITIES = ['singular', 'plural']
-let CONSONANTS = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z']
-let STARTS_WITH_TYPE_DICT = {
-	special: ['s + constanant!', 'ps', 'pn', 'gn', 'y', 'z'],
-	vowel: ['a', 'e', 'i', 'o', 'u', 'h']
+// FUNCTIONS
+function print(string) {
+	console.log(string)
 }
-
-let ARTICLE_DICT = {
-	masculine: {
-		special: {
-			definite: {
-				singular: 'lo',
-				plural: 'gli',
-			},
-			indefinite: {
-				singular: 'uno',
-				plural: 'degli',
-			},
-			beautiful: {
-				singular: 'bello',
-				plural: 'begli',
-			},
-		},
-		vowel: {
-			definite: {
-				singular: 'l\'',
-				plural: 'gli',
-			},
-			indefinite: {
-				singular: 'un',
-				plural: 'degli',
-			},
-			beautiful: {
-				singular: 'bell\'',
-				plural: 'begli',
-			},
-		},
-		other: {
-			definite: {
-				singular: 'il',
-				plural: 'i',
-			},
-			indefinite: {
-				singular: 'un',
-				plural: 'dei',
-			},
-			beautiful: {
-				singular: 'bel',
-				plural: 'bei',
-			},
-		},
-	},
-	feminine: {
-		vowel: {
-			definite: {
-				singular: 'l\'',
-				plural: 'le',
-			},
-			indefinite: {
-				singular: 'un\'',
-				plural: 'delle',
-			},
-			beautiful: {
-				singular: 'bella',
-				plural: 'belle',
-			},
-		},
-		other: {
-			definite: {
-				singular: 'la',
-				plural: 'le',
-			},
-			indefinite: {
-				singular: 'una',
-				plural: 'delle',
-			},
-			beautiful: {
-				singular: 'bella',
-				plural: 'belle',
-			},
-		},
-	},
-};
 
 function startsWithOneOf(string, targets) {
 	// todo: make your own folds library
 	return _.some(_.map(targets, target => _.startsWith(string, target)))
-}
-
-function print(string) {
-	console.log(string)
 }
 
 function randNoun() {
@@ -125,14 +43,19 @@ function applyPlurality(noun, plurality) {
 	else if (plurality === 'plural') {
 		let gender = getGender(noun)
 		if (gender === 'masculine') {
-			return replaceLastLetter(noun, 'i')
+			noun_plural = replaceLastLetter(noun, 'i')
 		}
 		else if (gender === 'feminine') {
-			return replaceLastLetter(noun, 'e')
+			noun_plural = replaceLastLetter(noun, 'e')
 		}
 		else {
 			throw 'Unknown gender'
-		}	
+		}
+		// orologio, for example, should become orologi, not orologii
+		if (_.endsWith(noun_plural, 'ii')) {
+			noun_plural = replaceLastLetter(noun_plural, '')
+		}
+		return noun_plural
 	}
 	else {
 		throw 'Unknown plurality'
@@ -172,37 +95,41 @@ function getStartsWithType(noun, gender) {
 	}
 }
 
-function randQuestion() {
-	let noun = randNoun()
-	let article_type = randArticleType()
-	let plurality = randPlurality()
-	return [noun, article_type, plurality]
+class RandQuestion {
+	constructor() {
+		this.noun = randNoun()
+		this.article_type = randArticleType()
+		this.plurality = randPlurality()
+	}
+
+	answer() {
+		let noun = this.noun
+		let article_type = this.article_type
+		let plurality = this.plurality
+
+		let gender = getGender(noun)
+		let starts_with_type = getStartsWithType(noun, gender)
+		let article = ARTICLE_DICT[gender][starts_with_type][article_type][plurality]
+		let correct_article_with_whitespace = applySpace(article)
+		let correct_noun = applyPlurality(noun, plurality)
+		let answer = `${correct_article_with_whitespace}${correct_noun}`
+		return answer
+	}
 }
 
-function getAnswer(noun, article_type, plurality) {
-	let gender = getGender(noun)
-	let starts_with_type = getStartsWithType(noun, gender)
-	let article = ARTICLE_DICT[gender][starts_with_type][article_type]
-	let correct_article_with_whitespace = applySpace(article)
-	let correct_noun = applyPlurality(noun, plurality)
-	let string = `${correct_article_with_whitespace}${correct_noun}`
-	return string
+function showNewQuestion() {
+	// generate random question and show on screen
+	question = new RandQuestion()
+	print(question)
 }
 
-function round() {
-	// ask question
-	let [noun, article_type, plurality] = randQuestion()
-	print({noun, article_type, plurality})
-
-	// show answer
-	let answer = getAnswer(noun, article_type, plurality)
+function showAnswer() {
+	// show the answer of the current question
+	answer = question.answer()
 	print(answer)
 }
 
-function main() {
-	round()
-}
-
 module.exports = {
-	main: main,
+	showNewQuestion,
+	showAnswer,
 }

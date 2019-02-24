@@ -123,8 +123,12 @@ Use this tool to quiz yourself <a>article quiz</a>
 <br /><br /><table border="3" bordercolor='white' bgcolor='white'>
 <tr><td align="center"><input type="text" name="article-word" size="22" readonly></td></tr>
 <tr><td align="center"><input type="text" name="article-answer" size="22" readonly></td></tr>
-<tr><td align="center"><input type="button" value=" Translate " onclick="articleQuiz.main()">
-<input type="reset" value=" Clear "></td></tr>
+<tr>
+	<td align="center">
+		<input type="button" value=" New Question " onclick="articleQuiz.showNewQuestion()">
+		<input type="button" value=" Answer " onclick="articleQuiz.showAnswer()">
+	</td>
+</tr>
 </table>
 </form>
 
