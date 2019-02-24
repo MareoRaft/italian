@@ -172,21 +172,34 @@ function getStartsWithType(noun, gender) {
 	}
 }
 
-function round() {
+function randQuestion() {
 	let noun = randNoun()
-	let gender = getGender(noun)
-	let starts_with_type = getStartsWithType(noun, gender)
 	let article_type = randArticleType()
 	let plurality = randPlurality()
+	return [noun, article_type, plurality]
+}
+
+function getAnswer(noun, article_type, plurality) {
+	let gender = getGender(noun)
+	let starts_with_type = getStartsWithType(noun, gender)
 	let article = ARTICLE_DICT[gender][starts_with_type][article_type]
 	let correct_article_with_whitespace = applySpace(article)
 	let correct_noun = applyPlurality(noun, plurality)
 	let string = `${correct_article_with_whitespace}${correct_noun}`
-	print(string)
+	return string
+}
+
+function round() {
+	// ask question
+	let [noun, article_type, plurality] = randQuestion()
+	print({noun, article_type, plurality})
+
+	// show answer
+	let answer = getAnswer(noun, article_type, plurality)
+	print(answer)
 }
 
 function main() {
-	print("directions.  choose if you want to work with 'the', 'a', or 'bel'.  read the noun.  determine the article.  determine the plural version of the noun and article.")
 	round()
 }
 
