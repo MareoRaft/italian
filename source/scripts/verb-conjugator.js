@@ -17,7 +17,7 @@ var essere
 var sc
 var correctverb
 
-function conjugateverb()
+function conjugateVerb()
 {
 v=0
 t=0
@@ -429,4 +429,6 @@ loro=futureroot+"eranno"}
 
 }
 
-
+module.exports = {
+	conjugateVerb,
+}
