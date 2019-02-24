@@ -1,7 +1,8 @@
-var _ = require('lodash')
+const _ = require('lodash')
+const __ = require('./lib/common-utils.js')
 
 // this should be a separate file:
-let LEXICON = ['settimana', 'anno', 'calendario', 'secondo', 'ora', 'minuto', 'orologio', 'birra', 'vino', 'acqua', 'manzo', 'pollo', 'agnello', 'infermiera', 'impiegato', 'cuoco']
+let LEXICON = ['settimana', 'anno', 'calendario', 'secondo', 'ora', 'minuto', 'orologio', 'birra', 'vino', 'acqua', 'manzo', 'pollo', 'agnello', 'infermiera', 'impiegato']
 
 let ARTICLE_TYPES = ['definite', 'indefinite', 'beautiful']
 let PLURALITIES = ['singular', 'plural']
@@ -94,23 +95,27 @@ function startsWithOneOf(string, targets) {
 }
 
 function print(string) {
-	alert(string)
+	console.log(string)
 }
 
 function randNoun() {
 	// get a random noun from the noun lexicon
-	let rand_index = Math.floor(Math.rand() * LEXICON.length)
-	return LEXICON[rand_index]
+	return __.randOf(LEXICON)
 }
 
 function randArticleType() {
-	let rand_index = Math.floor(Math.rand() * 2)
-	return ARTICLE_TYPES[rand_index]	
+	return __.randOf(ARTICLE_TYPES)
 }
 
 function randPlurality() {
-	let rand_index = Math.floor(Math.rand() * 2)
-	return PLURALITIES[rand_index]
+	return __.randOf(PLURALITIES)
+}
+
+function replaceLastLetter(string, letter) {
+	// Replace the last letter of the string with the supplied letter and return the result.
+	let head = string.substring(0, string.length - 1)
+	let tail = letter
+	return `${head}${tail}`
 }
 
 function applyPlurality(noun, plurality) {
@@ -120,10 +125,10 @@ function applyPlurality(noun, plurality) {
 	else if (plurality === 'plural') {
 		let gender = getGender(noun)
 		if (gender === 'masculine') {
-			return noun.splice() + 'i'
+			return replaceLastLetter(noun, 'i')
 		}
 		else if (gender === 'feminine') {
-			return noun.splice() + 'e'
+			return replaceLastLetter(noun, 'e')
 		}
 		else {
 			throw 'Unknown gender'
@@ -153,13 +158,11 @@ function getGender(noun) {
 }
 
 function getStartsWithType(noun, gender) {
-	if (gender === 'masculine') {
-		if (startsWithOneOf(noun, STARTS_WITH_TYPE_DICT['special'])) {
-			return 'special'
-		}
-		else if (noun.length >= 2 && _.startsWith(noun, 's') && startsWithOneOf(noun[1], CONSONANTS)) {
-			return 'special'
-		}
+	if (gender === 'masculine' && startsWithOneOf(noun, STARTS_WITH_TYPE_DICT['special'])) {
+		return 'special'
+	}
+	else if (gender === 'masculine' && noun.length >= 2 && _.startsWith(noun, 's') && startsWithOneOf(noun[1], CONSONANTS)) {
+		return 'special'
 	}
 	else if (startsWithOneOf(noun, STARTS_WITH_TYPE_DICT['vowel'])) {
 		return 'vowel'
@@ -184,9 +187,7 @@ function round() {
 
 function main() {
 	print("directions.  choose if you want to work with 'the', 'a', or 'bel'.  read the noun.  determine the article.  determine the plural version of the noun and article.")
-	while (true) {
-		round()		
-	}
+	round()
 }
 
 module.exports = {
