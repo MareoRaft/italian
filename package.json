@@ -9,7 +9,22 @@
   "author": "Matthew Lancellotti",
   "license": "copyright",
   "main": "build/scripts/main.js",
-  "scripts": {},
+  "scripts": {
+    "start": "",
+    "test": "",
+    "build": "./build.py",
+    "serve": "cd _build && live-server --wait=350",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "source"
+      ],
+      "extensions": "*",
+      "quiet": false
+    }
+  },
   "dependencies": {
     "check-types": "^7.4.0",
     "csv-parse": "^2.5.0",
@@ -20,6 +35,8 @@
   },
   "devDependencies": {
     "gulp-autoprefixer": "^6.0.0",
-    "gulp-for-compass": "0.0.2"
+    "gulp-for-compass": "0.0.2",
+    "live-server": "^1.2.1",
+    "npm-watch": "^0.6.0"
   }
 }
