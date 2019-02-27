@@ -14,4 +14,4 @@ def run(cmd):
 def is_server():
 	""" detects if we are on the server or not """
 	out = run(['uname', '-n'])
-	return out == 'guava'
+	return out == 'fuji'

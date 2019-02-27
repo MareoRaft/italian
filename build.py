@@ -11,15 +11,24 @@ from vars import course_name_to_info, banner_snippet
 from utils import run, is_server
 
 PATH = dict()
-PATH['repo'] = '/Users/Matthew/programming/italian'
+# repo
+if is_server():
+	PATH['repo'] = '/usr/home/freebsd/italian'
+else:
+	PATH['repo'] = '/Users/Matthew/programming/italian'
+# source
 PATH['source'] = path.join(PATH['repo'], 'source')
-PATH['build'] = path.join(PATH['repo'], '_build')
+# build
 if is_server():
 	PATH['build'] = '/home/freebsd/static-file-server/italian'
+else:
+	PATH['build'] = path.join(PATH['repo'], '_build')
 
 def build_js():
 	""" generate JavaScript bundle using browserify """
-	run(['browserify', './source/scripts/main.js', '-o', './_build/scripts/bundle.js'])
+	path_input = path.join(PATH['source'], 'scripts', 'main.js')
+	path_output = path.join(PATH['build'], 'scripts', 'bundle.js')
+	run(['browserify', path_input, '-o', path_output])
 
 def build_readme():
 	""" put a README in the build directory """
