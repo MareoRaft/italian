@@ -41,6 +41,7 @@ function applyPlurality(noun, plurality) {
 		return noun
 	}
 	else if (plurality === 'plural') {
+		let noun_plural = undefined
 		let gender = getGender(noun)
 		if (gender === 'masculine') {
 			noun_plural = replaceLastLetter(noun, 'i')
@@ -52,7 +53,7 @@ function applyPlurality(noun, plurality) {
 			throw 'Unknown gender'
 		}
 		// orologio, for example, should become orologi, not orologii
-		if (_.endsWith(noun_plural, 'ii')) {
+		if (_.endsWith(noun_plural, 'ii') && noun !== 'zio') {
 			noun_plural = replaceLastLetter(noun_plural, '')
 		}
 		return noun_plural
@@ -73,6 +74,10 @@ function getGender(noun) {
 		return 'feminine'
 	}
 	else if (_.endsWith(noun, 'o')) {
+		return 'masculine'
+	}
+	else if (_.endsWith(noun, 'e')) {
+		// let's assume 'e' endings are masculine, for now
 		return 'masculine'
 	}
 	else {

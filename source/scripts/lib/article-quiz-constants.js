@@ -1,4 +1,67 @@
-let LEXICON = ['settimana', 'anno', 'secondo', 'ora', 'minuto', 'orologio', 'birra', 'vino', 'acqua', 'manzo', 'pollo', 'agnello', 'infermiera', 'impiegato', 'cuoco']
+let LEXICON = [
+// Masculine
+// special
+'yogurt',
+'spumante',
+'gnomo',
+'specchio',
+'stadio',
+'psicologo',
+'zero',
+'pneumatico',
+'zucchero',
+'zio',
+
+// vowel
+'anno',
+'orologio',
+'agnello',
+'impiegato',
+'antipasto',
+'ombrello',
+'appartamento',
+'aglio',
+'albero',
+'aereo',
+
+// other
+'secondo',
+'minuto',
+'vino',
+'pollo',
+'cuoco',
+'manzo',
+'letto',
+'momento',
+'professore',
+'telefono',
+
+// Feminine
+// vowel
+'ora',
+'acqua',
+'infermiera',
+'amica',
+'arancia',
+'insalata',
+'maglietta',
+'uva',
+'oliva',
+'zucca',
+
+// other
+'settimana',
+'birra',
+'zuppa',
+'porta',
+'signora',
+'bottiglia',
+'candela',
+'stanza',
+'tavola',
+'finestra',
+'zia',
+]
 
 let ARTICLE_TYPES = ['definite', 'indefinite', 'beautiful']
 let PLURALITIES = ['singular', 'plural']
