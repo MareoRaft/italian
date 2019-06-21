@@ -3,12 +3,13 @@
 {% macro index_row(name, title, color='black') -%}
 	<tr><td align='center'><a href='#{{ name }}'><font color='{{ color }}'>{{ title }}</font></a></td></tr>
 {% endmacro -%}
-{% macro index_table(rows) -%}
-
-	<table class='it-en'>
-	{% for row in rows %}
-		{{ it_en_row(*row) }}
-	{% endfor -%}
+{% macro index_table(title, rows) -%}
+	<br><br>
+	<table bgcolor='#f2f2f2' align='center' width='360' border='15' bordercolor='#f2f2f2'>
+		<tr><td align='center' valign='center'><font color='#252525'><h2>{{ title }}</h2></font></td></tr>
+		{% for row in rows %}
+			{{ index_row(*row) }}
+		{% endfor -%}
 	</table>
 {% endmacro -%}
 {% macro it_en_row(it="", en="", it_note="", en_note="") -%}
@@ -22,28 +23,31 @@
 	</table>
 {% endmacro -%}
 {% macro section(name, title) -%}
-	<a name={{ name }} />
-	<br /><font face='bookman old style'><big>{{ title }}</big></font> <font color='white'>(<a href='#top'>top</a>)</font>
+	<br><br><a name={{ name }} />
+	<br><font face='bookman old style'><big>{{ title }}</big></font> <font color='white'>(<a href='#top'>top</a>)</font>
 {% endmacro -%}
 
 
 {% block index %}
-	<br /><br /><table bgcolor='#f2f2f2' align='center' width='360' border='15' bordercolor='#f2f2f2'>
-	<tr><td align='center' valign='center'><font color='#252525'><h2>Italian 1 Vocab</h2></font></td></tr>
-	('commonverbs', 'Some Common Verbs'),
-	</table>
-
-
-	<tr><td align='center' valign='center'><font color='#252525'><h2>Italian 2 Vocab</h2></font></td></tr>
-	('bodypartvocab', 'Body Part Vocabulary'),
-	('foodvocab', 'Food Vocabulary'),
-
-	('familyvocab', 'Family Vocabulary'),
-	('sportvocab', 'Sport Vocabulary'),
-	<!-- ('weathervocab', 'Weather Vocabulary'), -->
-	('rareverbs', 'Uncommon Verbs Vocabulary'),
-	</table>
-
+	{{
+		index_table('Italian 1 Vocab', [
+			('commonverbs', 'Some Common Verbs'),
+		])
+	}}
+	{{
+		index_table('Italian 2 Vocab', [
+			('bodypartvocab', 'Body Part Vocabulary'),
+			('foodvocab', 'Food Vocabulary'),
+			('familyvocab', 'Family Vocabulary'),
+			('sportvocab', 'Sport Vocabulary'),
+			('rareverbs', 'Uncommon Verbs Vocabulary'),
+		])
+	}}
+	{{
+		index_table('Italian Beyond Vocab', [
+			('school', 'School Vocabulary'),
+		])
+	}}
 	<br /><br /><table align='center' cellpadding='4' border='2' bordercolor='#555555' bgcolor='#f2f2f2' width='362'>
 	<tr><td align='center'><font color='#777777'>Extras</font></td></tr>
 	<tr><td align='center'><a href='#translator'><font color='#666666'>On Site Translator</font></a></td></tr>
@@ -52,9 +56,7 @@
 
 
 {% block content %}
-<br /><br /><a name='commonverbs' />
-<br /><font face='bookman old style'><big>Some Common Verbs</big></font> <font color='white'>(<a href='#top'>top</a>)</font>
-
+{{ section('commonverbs', 'Some Common Verbs') }}
 <br /><br /><a name='who' /><table align='center'>
 <tr><td><pre>
 <font color='#ffffdd' face='mattantique bt'>abitare</font> - <font color='#ffffeb' face='maiandra gd'>live</font>
@@ -75,9 +77,7 @@
 <font color='#ffffdd' face='mattantique bt'>vedere</font> - <font color='#ffffeb' face='maiandra gd'>see</font>
 </pre></td></tr></table>
 
-<br /><br /><a name='bodypartvocab' />
-<br /><font face='bookman old style'><big>Body Part Vocabulary</big></font> <font color='white'>(<a href='#top'>top</a>)</font>
-
+{{ section('bodypartvocab', 'Body Part Vocabulary') }}
 <br /><br />The articles and singular and plural forms of body parts are extreemly irregular.  I have organised them so that body parts that follow similar rules are together.  Please pay close attention to the articles used for each body part and the letter at the end of the noun.
 
 <br /><br /><table align='center' cellpadding='3' border='1' bordercolor='black'>
@@ -109,9 +109,7 @@
 <br />saltare - to jump
 
 
-<br /><br /><a name='foodvocab' />
-<br /><font face='bookman old style'><big>Food Vocabulary</big></font> <font color='white'>(<a href='#top'>top</a>)</font>
-
+{{ section('foodvocab', 'Food Vocabulary') }}
 <br /><br />A typical italian meal is eaten in four courses.
 
 <br /><br /><table align='center'><tr><td>
@@ -285,9 +283,7 @@
 <li>tavaglio-napkin</li>
 </ul></td></tr></table>
 
-<br /><br /><a name='familyvocab' />
-<br /><font face='bookman old style'><big>Family Vocabulary</big></font> <font color='white'>(<a href='#top'>top</a>)</font>
-
+{{ section('familyvocab', 'Family Vocabulary') }}
 <br /><br />This site <a href='http://www.smartphrase.com/Italian/it_you-family_voc.shtml'>www.smartphrase.com/Italian</a> supplied me with the same vocabulary from my italian class.  It excluded only son-in-law, daughter-in-law, step son, and step daughter.  The "Religions" and "Professions" sections are not required in the school course.  The articles are discluded here, but you should include them in normal speach.
 
 <pre><font color='white'>
@@ -465,9 +461,6 @@ widowed
 <td>camminare</td><td>to walk</td></tr>
 </table>
 
-<!-- <br /><br /><a name='weathervocab' />
-<br /><font face='bookman old style'><big>Weather Vocabulary</big></font> <font color='white'>(<a href='#top'>top</a>)</font>
- -->
 {{ section('rareverbs', 'Uncommon Verbs Vocabulary') }}
 <table class='it-en'>
 	<tr><td>(ex: "Spingiamo la macchina")</td><td>spingere</td><td> &#x2014; </td><td>to push</td><td></td></tr>
@@ -487,21 +480,7 @@ widowed
 </table>
 
 
-past tense of vivere is vissuto
-
-"da dove" not "di dove".  "from where"
-
-I have not heard him arrive
-Non l'ho sentito arrivato
-
-
-
------
-notes: di nuova - again
-
-
-school vocab
--------------
+{{ section('school', 'School Vocabulary') }}
 {{
 	it_en_table([
 		('aula', 'classroom'),
@@ -522,10 +501,50 @@ school vocab
 }}
 
 
+<br><br><br><br><br>
+past tense of vivere is vissuto
+
+"da dove" not "di dove".  "from where"
+
+I have not heard him arrive
+Non l'ho sentito arrivato
+
+
+
+-----
+notes: di nuova - again
 
 misc vocab
 ---------
-(interno, around, )
+('interno', 'around'),
+('ingresso', 'entrance'),
+('secolo', 'century'),
+('only', 'soltanto', 'adverb form'),
+('bensi', 'but', "We don't have six, but eight.", "Non abbiamo sei, bensi otto."),
+('pagliacio', 'clown'),
+('neanche', 'not even / neither', 'Neanche una', 'Not even one')
+
+sports
+-----------
+('premio', 'prize'),
+('pista', 'racetrack', '', 'like path'),
+('pullman', 'bus'),
+('campione', 'champion')
+('campionato', 'championship')
+
+1st, 2nd, 3rd...
+--------------------
+('primo', 'first'),
+('secondo', 'second'),
+('terzo', 'third'),
+('quarto', 'fourth'),
+('quinto', 'fifth'),
+('sesto', 'sixth'),
+('settimo', 'seventh'),
+('ottavo', 'eighth'),
+('nono', 'ninth'),
+('decimo', 'tenth'),
+
 
 
 
