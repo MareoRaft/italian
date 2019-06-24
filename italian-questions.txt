@@ -73,9 +73,9 @@ Difference btw "addosso" and "su".  When to use which? -- use "su" almost always
 
 word eccitato?  should use emozionato instead?
   - yes
-  - use "emozionato" for excited, or ""
+  - for excited, use instead "entusiasto", "emozionato", "contento" (means content)
   - or use "non vedo l'ora per..."
-  - but you can use eccitato for animals if you want
+  - but you can use eccitato for animals if you want, for agitation, or sexual excitement
 
 if i say "il mio telefonino è spento", am I saying it's out of batteries, or broken, or permanently broken?
   - it's turned off
@@ -83,6 +83,35 @@ if i say "il mio telefonino è spento", am I saying it's out of batteries, or br
 
 ci - substitutes "la" meaning "there" or "in this place" "a quel posto".
   conto SU questa cosa --> ci conto
+
+situation:
+  * departing for a place (partire)
+  * passing by a place (passare)
+-> per
+
+situation:
+  * staying at a place (abitare, vivere, stare, restare, rimanere)
+  * going to a place (andare, viaggiare, tornare, correre)
+large islands, regions, and larger -> in
+small islands, towns -> a
+generic places ending in ria, cia, teca -> in
+chiesa, piscina, palestra, ufficcio -> in
+other generic places -> a
+person (nonna, dentista) -> da
+
+situation:
+  * coming from a place (venire, tornare...)
+-> da
+
+note: go back to that video and watch it through again.  then go to the links in the details for other preposition videos
+
+prepositions of time:
+past to now -> da
+now to future -> a
+past -> per
+future -> per
+future moment -> tra
+
 
 ridare - to give back
 restituire - to give back
@@ -114,7 +143,6 @@ because the "scusi" here is congiuntivo/subjunction.  Congiuntivo is used for co
 
 words i want to know
 ----------------------
-
 
 
 
