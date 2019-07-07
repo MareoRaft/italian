@@ -3,6 +3,7 @@
 {% block index %}
 	<br /><br /><table align='center' border='1' bordercolor='dd2222'><tr><td><table align='center' width='300' border='14' bordercolor='#efefef'>
 	<tr><td align='center' valign='center'><h2>Italian {{ course_name }}</h2></td></tr>
+	<tr><td align='center'><a href='#articles'><font color='black'>Articles (the, a)</font></a></td></tr>
 	<tr><td align='center'><a href='#avereandessere'><font color='black'>Avere and Essere</font></a></td></tr>
 	<tr><td align='center'><a href='#conjugatingregularverbs'><font color='black'>Conjugating Regular Verbs</font></a></td></tr>
 	<tr><td align='center'><a href='#commonverbs'><font color='black'>Some Common Verbs</font></a></td></tr>
@@ -25,6 +26,115 @@
 
 
 {% block content %}
+<br /><br /><a name='articles' />
+<br /><font face='arial rounded mt bold'><big>Articles</big></font> <font color='white'> <a href='#top'>top</a> </font>
+
+<br /><br />Articoli!  The articles 'the' and 'a' change depending on the noun they preceed: feminine/masculine, singular/plural, and the first letter.  In each cell of the table we have 'the / a' in singular or 'the / some' in plural.
+
+
+<br /><br />feminine<br /><table align='center' border='2' bordercolor='#700070' cellpadding='8'>
+<thead>
+<tr>
+	<td align='center' width='90'>singular</td>
+	<td align='center'>plural</td>
+	<td>noun starts with...</td>
+</tr>
+</thead>
+<tr>
+	<td align='center'>l' / un'</td>
+	<td align='center'>le / delle</td>
+	<td>vowel, h</td>
+</tr>
+<tr>
+	<td align='center'>la / una</td>
+	<td align='center'>le / delle</td>
+	<td>everything else!</td>
+</tr>
+</table>
+
+
+<br /><br />masculine<br /><table align='center' border='2' bordercolor='#700070' cellpadding='8'>
+<thead>
+<tr>
+	<td align='center' width='90'>singular</td>
+	<td align='center'>plural</td>
+	<td>noun starts with...</td>
+</tr>
+</thead>
+<tr>
+	<td align='center'>lo / uno</td>
+	<td align='center'>gli / degli</td>
+	<td>s + consanant, pn, ps, y, z</td>
+</tr>
+<tr>
+	<td align='center'>l' / un</td>
+	<td align='center'>gli / degli</td>
+	<td>vowel, h</td>
+</tr>
+<tr>
+	<td align='center'>il / un</td>
+	<td align='center'>i / dei</td>
+	<td>everything else!</td>
+</tr>
+</table>
+
+
+
+'a' = 'one' = 'uno'.  Adding 'no' in front of 'one' is the same as adding 'ness' in front of 'uno'.  For, for example, 'un' becomes 'nessun'.
+
+<br /><br /><br />The word 'bello' is allowed to appear BEFORE the noun.  If it does, however, then it must follow the same rules as the 'the' articles.
+
+
+<br /><br />masculine<br /><table align='center' border='2' bordercolor='#700070' cellpadding='8'>
+<thead>
+<tr>
+	<td align='center' width='90'>singular</td>
+	<td align='center'>plural</td>
+	<td>noun starts with...</td>
+</tr>
+</thead>
+<tr>
+	<td align='center'>bello</td>
+	<td align='center'>begli</td>
+	<td>s + consanant, pn, ps, y, z</td>
+</tr>
+<tr>
+	<td align='center'>bell'</td>
+	<td align='center'>begli</td>
+	<td>vowel, h</td>
+</tr>
+<tr>
+	<td align='center'>bel</td>
+	<td align='center'>bei</td>
+	<td>everything else!</td>
+</tr>
+</table>
+
+
+<br /><br />You can see the l's get doubled except for 'bel'.  The feminine case follows the same pattern, except, you can never use "bell'".  You must use 'bella' still.
+
+Use this tool to quiz yourself <a>article quiz</a>
+
+
+<br /><br />
+<br /><font face='arial rounded mt bold'><big>Article Quiz</big></font> <font color='white'> <a href='#top'>top</a> </font>
+
+<form name="articlequiz">
+<br /><br /><table border="3" bordercolor='white' bgcolor='white'>
+<tr><td align="center"><input type="text" name="question" size="22" readonly></td></tr>
+<tr><td align="center"><input type="text" name="answer" size="22" readonly></td></tr>
+<tr>
+	<td align="center">
+		<input type="button" value=" New Question " onclick="articleQuiz.showNewQuestion()">
+		<input type="button" value=" Answer " onclick="articleQuiz.showAnswer()">
+	</td>
+</tr>
+</table>
+</form>
+
+
+
+
 <br /><br /><a name='avereandessere' />
 <br /><font face='arial rounded mt bold'><big>Avere and Essere</big></font> <font color='white'> <a href='#top'>top</a> </font>
 
@@ -340,5 +450,10 @@
 <tr><td><font color='white'>In Italian "Chiamo a lei."</font></td></tr>
 <tr><td><font color='white'>Change "Alison" to "her" "Chiamo a le."</font></td></tr>
 <tr><td><font color='white'>Place "her" before the verb "Le chiamo."</font></td></tr></table>
+
+<br><br>THE FINAL WORD on direct vs indirect:  If it's inanimate (not person and not animal), use direct (lo la li le).  Otherwise, it depends on the 'a' or 'con'.  If the noun is preceded by 'a' or 'con' and it's a person, use indirect (gli le).  Otherwise, direct.
+
+<br><br>Said more succinctly.  If it's a person or animal preceded by 'a' or 'con', use gli/le.  In all other cases, use lo/la/li/le.
+
 
 {% endblock %}

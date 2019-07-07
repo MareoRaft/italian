@@ -14,3 +14,8 @@ table.it-en td:nth-child(2) {
 table.it-en td:nth-child(3) {
 	text-align: center;
 }
+
+
+thead {
+	font-weight: bold;
+}

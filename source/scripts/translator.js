@@ -61,7 +61,7 @@ var inputToOutput = {
 	'want': 'volere',
 }
 
-function translateword(){
+function translateWord(){
 	var input = trans.word.value
 	var output = undefined
 	if (input in inputToOutput) {
@@ -71,4 +71,8 @@ function translateword(){
 		output = 'word not found'
 	}
 	trans.answer.value = output
+}
+
+module.exports = {
+	translateWord,
 }

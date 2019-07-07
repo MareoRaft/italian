@@ -2,13 +2,11 @@
 <head>
 	<title>Italian {{ course_name }}</title>
 	<link rel='stylesheet' href='style.css'>
-	<script src='translator.js'></script>
-	<script src='verb-conjugator.js'></script>
+	<script src='scripts/bundle.js'></script>
 </head>
 
 <body bgcolor="{{bgcolor}}" text="{{text}}" link="{{link}}" vlink="{{vlink}}" alink="{{alink}}">
 
-<!-- PicoSearch no longer exists!.  Consider replacing with another site-search service -->
 
 {{ banner_snippet }}
 
@@ -27,13 +25,13 @@
 <br /><br /><a name='translator' />
 <br /><font face='arial rounded mt bold'><big>On-Site Translator</big></font> <font color='white'> <a href='#top'>top</a> </font>
 
-<br /><br />Use the following translator as a quick reference to any vocabulary listed on this site.  For a more complete translator, please visit <a href='http://www.freetranslation.com' target='translation'>www.freetranslation.com</A>.
+<br /><br />Use the following translator as a quick reference to any vocabulary listed on this site.  For a more complete translator, please visit <a href='https://translate.google.com' target='translation'>translate.google.com</a>.
 
 <form name="trans">
 <br /><br /><table border="3" bordercolor='white' bgcolor='white'>
 <tr><td align="center"><input type="text" name="word" size="22"></td></tr>
 <tr><td align="center"><input type="text" name="answer" size="22" readonly></td></tr>
-<tr><td align="center"><input type="button" value=" Translate " onclick="translateword()">
+<tr><td align="center"><input type="button" value=" Translate " onclick="translator.translateWord()">
 <input type="reset" value=" Clear "></td></tr>
 </table>
 </form>
@@ -45,7 +43,7 @@
 
 <form name="conj">
 <br />Conjugation of <input type="text" size="10" name="verb"> in the <input type="text" size="10" name="tense"> tense:
-<br /><br /><input type="button" value="Conjugate" onclick="conjugateverb()">
+<br /><br /><input type="button" value="Conjugate" onclick="conjugator.conjugateVerb()">
 <br /><br /><table border="3" bordercolor="white" bgcolor="white">
 <tr><td><font color='black'>io</font></td><td><input type="text" size="20" name="ioform" readonly></td></tr>
 <tr><td><font color='black'>tu</font></td><td><input type="text" size="20" name="tuform" readonly></td></tr>
