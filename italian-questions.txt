@@ -8,40 +8,6 @@ goals for today
 
 current q's
 -----------
-Do adjectives after a verb agree with the gender of the subject?
-For example, "lui è corto, lei è corta".  Or is it ALWAYS corto?
-  * it agrees
-
-Do I say "i pro e i contro" or "i pro ed i contro"?
-un testimone ed una testimone?
-  * when the same vowel is used twice, add a "d".  For example, "banana ed eucalipto" "ad andare".  NOT just for "e".  
-  * for "e", "a", "o"
-  * as long as the WORD after it is un vowel
-  * exception: "ad esempio"
-
-How to say "He did the job".  Use "lo" or "ci"?
-  * L'ha fatto.
-  * used for "about it" / "a questo", but not for it alone
-  * and for "to go there" --> ci vado
-  * "ci faccio un salto" --> to go to a place, quickly
-  * lavori ancora al bar?
-no, non ci lavoro piu (means li)
-
-
-
-When do I use "cogliere" instead of "prendere"?
-  * means "seize" "grab" "catch someone in the act"
-  * cogliere fiori pick up flowers
-  * cogliere l'attimo --> seize the day/moment
-  * cogliere il significato di una parola --> u know..  
-  * cogliere il ladro sul fatto
-
-When do I use "catturare" instead of "prendere"?
-  * to catch an animal
-  * to catch a prisoner / person (like to arrest)
-  * to grab the attention
-  * catturare l'attenzione
-
 shallow is poco profondo or poco profundo?
 
 How to say "i feed the baby" vs "i feed my family" vs "i feed my dog" ?
@@ -52,6 +18,7 @@ When do I say "primo" and when do i say "prima" ?
 When to use "casella" invece di "scattola" ?
 
 
+
 feedback
 --------
   * listening to lucrezia is good, once in a while
@@ -59,8 +26,41 @@ feedback
   * anki is more reactive than tinyflash, but maybe don't add too many cards too often --> now only 5 new words per day, and those words come from something in my lesson that i liked
 
 
+
+
 answered q's
 ------------
+When do I use "catturare" instead of "prendere"?
+  * to catch an animal
+  * to catch a prisoner / person (like to arrest)
+  * to grab the attention
+  * catturare l'attenzione
+
+When do I use "cogliere" instead of "prendere"?
+  * means "seize" "grab" "catch someone in the act"
+  * cogliere fiori pick up flowers
+  * cogliere l'attimo --> seize the day/moment
+  * cogliere il significato di una parola --> to find the meaning of a word
+  * cogliere il ladro sul fatto --> catch them in the act
+
+How to say "He did the job".  Use "lo" or "ci"?
+  * lo
+  * L'ha fatto.
+  * "ci" is not used for "it", but for "about it", "a questo", "là"
+  * and for "to go there" --> ci vado
+  * "ci faccio un salto" --> to go to a place, quickly
+  * lavori ancora al bar?  "no, non ci lavoro piu"
+
+Do I say "i pro e i contro" or "i pro ed i contro"?
+  * Definitive rule: for the words "e", "a", "o", iff next word begins with the same letter, use a "d".
+  * For example, "banana ed eucalipto" and "ad andare".
+  * exception: "ad esempio"
+  * note: people have begun to use the "d" when the next word begins with ANY vowel, even though this is not the official rule
+
+Do adjectives after a verb agree with the gender of the subject?
+For example, "lui è basso, lei è bassa".  Or is it ALWAYS basso?
+  * it agrees
+  * lui è basso.  lei è bassa.
 
 Difference btw "addosso" and "su".  When to use which? -- use "su" almost always
   * addosso = su corpo
@@ -69,21 +69,47 @@ Difference btw "addosso" and "su".  When to use which? -- use "su" almost always
   * oggi ho una maglietta bianca addosso
   * oggi indosso (the verb form) una maglietta
 
-ed vs e?  when to use?
-  - "ed" means "and".  it replaces "e".
-  - vowel, use ed
-  - consonant, use e
-
 word eccitato?  should use emozionato instead?
   - yes
-  - use "emozionato" for excited
-  - but you can use eccitato for animals if you want
+  - for excited, use instead "entusiasto", "emozionato", "contento" (means content)
+  - or use "non vedo l'ora per..."
+  - but you can use eccitato for animals if you want, for agitation, or sexual excitement
 
 if i say "il mio telefonino è spento", am I saying it's out of batteries, or broken, or permanently broken?
   - it's turned off
   - use "scarico" if you want to say charge is empty
 
 ci - substitutes "la" meaning "there" or "in this place" "a quel posto".
+  conto SU questa cosa --> ci conto
+
+situation:
+  * departing for a place (partire)
+  * passing by a place (passare)
+-> per
+
+situation:
+  * staying at a place (abitare, vivere, stare, restare, rimanere)
+  * going to a place (andare, viaggiare, tornare, correre)
+large islands, regions, and larger -> in
+small islands, towns -> a
+generic places ending in ria, cia, teca -> in
+chiesa, piscina, palestra, ufficcio -> in
+other generic places -> a
+person (nonna, dentista) -> da
+
+situation:
+  * coming from a place (venire, tornare...)
+-> da
+
+note: go back to that video and watch it through again.  then go to the links in the details for other preposition videos
+
+prepositions of time:
+past to now -> da
+now to future -> a
+past -> per
+future -> per
+future moment -> tra
+
 
 ridare - to give back
 restituire - to give back
@@ -119,14 +145,6 @@ food for thought = spunti di reflessione
 
 words i want to know
 ----------------------
-i smell a pie = sento l'odore di una torta
-smarrimento del bagaglio
-consegna ritardata del bagaglio
-danneggiamento del bagaglio
-maltempo
-the fox
-the trap
-
 desired = desiderato
 chickens = polli / galline
 in maniera = in modo = in manner = in way
@@ -151,8 +169,6 @@ atto ? moment (but longer)
 travestitassi ? disguised cross dressed
 fanciulla ? bribe
 avvelenata ? poisonous
-
-
 
 
 
