@@ -1,15 +1,23 @@
 goals for today
 ---------------
-  * 3 questions
-  * practice the future tense
+  * questions
+  * practice the passato prossimo vs imperfetto
+it was a pleasure = e or era?
 
 
 
 
 for dovere you DO need to choose essere vs avere
 
+
 current q's
 -----------
+enthusiastic = entusiasta ALWAYS with an "a" ?
+for maschuline singular, it uses an a
+otherwise, it behaves normally
+
+
+
 "Siete in grado di nuotare?" a natural sentence?  What is grado?  used often?
 always used together like
 grado = grade/degree
@@ -55,11 +63,34 @@ or you could like put a stress on the word "deve" when you say it
 
 
 How to say "i feed the baby" vs "i feed my family" vs "i feed my dog" ?
+ho dato da mangiare al bambino
+ho dato da mangiare alla mia famiglia
+ho dato da mangiare il cane
+basically never use nutrire.  only when you would use it in english
+(nutrirsi)
+i maiali si nutriri di le piante...
 
 When do I say "primo" and when do i say "prima" ?
+adverb: prima (sempre) "before"
+prima di mangiare, lav le mani
+
+adjective: primo/a/i/e "first" (just like secondo, terzo, always changing the ending to agree)
+i arrived first: primo
+first to win: primo
+il primo di arrivare
 
 
 When to use "casella" invece di "scattola" ?
+casella
+  -- casella: a box you tick to answer a question
+  -- casella (postale): email inbox
+  -- casella (vocale): for voicemail
+  -- maybe for tabs.  has to be on paper or digitally
+scattola
+  -- everything else
+
+
+
 
 When to use "alimentare" vs "nutrire" vs "fa da mangiare"
 
@@ -116,7 +147,7 @@ How to say "He did the job".  Use "lo" or "ci"?
   * "ci faccio un salto" --> to go to a place, quickly
   * lavori ancora al bar?  "no, non ci lavoro piu"
 
-Do I say "i pro e i contro" or "i pro ed i contro"?
+"ed": Do I say "i pro e i contro" or "i pro ed i contro"?
   * Definitive rule: for the words "e", "a", "o", iff next word begins with the same letter, use a "d".
   * For example, "banana ed eucalipto" and "ad andare".
   * exception: "ad esempio"
@@ -140,13 +171,15 @@ word eccitato?  should use emozionato instead?
   - or use "non vedo l'ora per..."
   - but you can use eccitato for animals if you want, for agitation, or sexual excitement
 
-if i say "il mio telefonino è spento", am I saying it's out of batteries, or broken, or permanently broken?
+"spento vs scarico": if i say "il mio telefonino è spento", am I saying it's broken or out of batteries?
   - it's turned off
   - use "scarico" if you want to say charge is empty
 
 ci - substitutes "la" meaning "there" or "in this place" "a quel posto".
   conto SU questa cosa --> ci conto
 
+"preposizioni"
+--------------
 situation:
   * departing for a place (partire)
   * passing by a place (passare)
@@ -178,9 +211,6 @@ future -> per
 future moment -> tra
 
 
-ridare - to give back
-restituire - to give back
-restituisci
 
 
 "loro" -> li
@@ -229,12 +259,35 @@ games for italian club
 
 
 
+past situations --> past tenses
+-------------------------------
+(priority order)
+habitual --> imperfetto
+two things going on simultaneously --> imperfetto
+one thing going on and other inserts --> imperfetto + passato prossimo
+state of mind --> imperfetto
+one time thing(s) --> passato prossimo
+repeated in non habitual way --> passato prossimo
+two things in succession --> passato prossimo
 
 
+
+
+masculine words that end in "a"
+--------------------------------
+il cinema
+il panorama
+il problema
+il poeta
+il tema
+il sistema
+il pianeta
+il clima
+il giornalista
+(the list is not exhaustive)
 
 
 
 words i want to know
 ----------------------
-
 
