@@ -1,37 +1,133 @@
 goals for today
 ---------------
-  * practice the past tense
-  * practice the educato
+  * questions
+  * practice the passato prossimo vs imperfetto
+it was a pleasure = e or era?
 
 
+
+
+for dovere you DO need to choose essere vs avere
 
 
 current q's
 -----------
 what is "con sapevole"?  is it a word?
 
+enthusiastic = entusiasta ALWAYS with an "a" ?
+for maschuline singular, it uses an a
+otherwise, it behaves normally
+
+
+
+"Siete in grado di nuotare?" a natural sentence?  What is grado?  used often?
+always used together like
+grado = grade/degree
+grado celsius, etc
+"essere in grado" = to be able to
+
 shallow is poco profondo or poco profundo?
+poco profondo
+
+How to say "i finally arrived"?  sono arrivato finalmente, o sono finalmente arrivato?
+sono arrivato finalmente
+
+What is the difference btw "buco" e "foro" ?
+synonyms
+foro more for a hole in a wall
+buco more for a hole in the ground
+buco has ONE c, not two
+
+tenere is like = to keep, to maintain, to conserve, or to hold in hand
+
+confine = border.  NOT bordo.
+
+poiche and dato che are synonyms
+
+
+"Non dovresti essere qui adesso." means "You're not supposed to be here now" or "you don't have to be here now".
+
+
+Busuu says "Leggi e ascolta le parole in contesto".  Is that a command or not?  Because leggi is the tu congiugation, and ascolta is the "he".
+
+In what sense is "una lotta" used?
+una lotta = a fight (physical combat)
+lotta a greco romana = roman wrestling
+
+
+Non deve dirlo a nessuno.  Shouldn't it be "non dovere" for a tu command?
+he musn't tell anyone
+non c'e bisogno di dirlo a qualcuno
+he doesn't need to
+or you could like put a stress on the word "deve" when you say it
+
+
+
 
 How to say "i feed the baby" vs "i feed my family" vs "i feed my dog" ?
+ho dato da mangiare al bambino
+ho dato da mangiare alla mia famiglia
+ho dato da mangiare il cane
+basically never use nutrire.  only when you would use it in english
+(nutrirsi)
+i maiali si nutriri di le piante...
 
 When do I say "primo" and when do i say "prima" ?
+adverb: prima (sempre) "before"
+prima di mangiare, lav le mani
+
+adjective: primo/a/i/e "first" (just like secondo, terzo, always changing the ending to agree)
+i arrived first: primo
+first to win: primo
+il primo di arrivare
 
 
 When to use "casella" invece di "scattola" ?
+casella
+  -- casella: a box you tick to answer a question
+  -- casella (postale): email inbox
+  -- casella (vocale): for voicemail
+  -- maybe for tabs.  has to be on paper or digitally
+scattola
+  -- everything else
+
+
+
+
+When to use "alimentare" vs "nutrire" vs "fa da mangiare"
+
+
+
+goals
+-------
+  * practice the educato
+  * ask some questions
+  * practice "ci"
+  * practice the "it" indirect/direct pronouns
 
 
 
 feedback
---------
+---------
   * listening to lucrezia is good, once in a while
   * lessons are good, but maybe not more than 3/wk
-  * anki is more reactive than tinyflash, but maybe don't add too many cards too often --> now only 5 new words per day, and those words come from something in my lesson that i liked
+  * anki is more reactive than tinyflash, but maybe don't add too many cards too often --> now only 5 new words per day, and those words come from something in my lesson that i liked --> 5 words a day is pretty ok.  give stress about doing anki, but actually doing it is fun. --> continues to have a feeing of stress.  going to try not doing anki again, and when not interacting w ppl, may try writing italian paragraphs.
 
 
 
 
 answered q's
 ------------
+how to say "he gave" in "he gave some milk to the cat" ?
+ha dato
+diede is passoto remoto
+
+Difference btw dispiace and spiace?  How to use?
+they are equivalent and interchangeable
+
+How to say "i picked the lock"?
+ho forzato la serratura
+
 When do I use "catturare" instead of "prendere"?
   * to catch an animal
   * to catch a prisoner / person (like to arrest)
@@ -53,7 +149,7 @@ How to say "He did the job".  Use "lo" or "ci"?
   * "ci faccio un salto" --> to go to a place, quickly
   * lavori ancora al bar?  "no, non ci lavoro piu"
 
-Do I say "i pro e i contro" or "i pro ed i contro"?
+"ed": Do I say "i pro e i contro" or "i pro ed i contro"?
   * Definitive rule: for the words "e", "a", "o", iff next word begins with the same letter, use a "d".
   * For example, "banana ed eucalipto" and "ad andare".
   * exception: "ad esempio"
@@ -77,13 +173,15 @@ word eccitato?  should use emozionato instead?
   - or use "non vedo l'ora per..."
   - but you can use eccitato for animals if you want, for agitation, or sexual excitement
 
-if i say "il mio telefonino è spento", am I saying it's out of batteries, or broken, or permanently broken?
+"spento vs scarico": if i say "il mio telefonino è spento", am I saying it's broken or out of batteries?
   - it's turned off
   - use "scarico" if you want to say charge is empty
 
 ci - substitutes "la" meaning "there" or "in this place" "a quel posto".
   conto SU questa cosa --> ci conto
 
+"preposizioni"
+--------------
 situation:
   * departing for a place (partire)
   * passing by a place (passare)
@@ -103,7 +201,9 @@ situation:
   * coming from a place (venire, tornare...)
 -> da
 
-note: go back to that video and watch it through again.  then go to the links in the details for other preposition videos
+note: go back to that video and watch it through again.  then go to the links in the
+
+details for other preposition videos
 
 prepositions of time:
 past to now -> da
@@ -113,9 +213,6 @@ future -> per
 future moment -> tra
 
 
-ridare - to give back
-restituire - to give back
-restituisci
 
 
 "loro" -> li
@@ -133,45 +230,6 @@ for the formal/educato, when doing a command, the mi comes still before:
 informal
 "scusami"
 because the "scusi" here is congiuntivo/subjunction.  Congiuntivo is used for commands.
-
-
-
-
-
-
-more words
-----------
-snack = spunto?
-food for thought = spunti di reflessione
-
-
-words i want to know
-----------------------
-desired = desiderato
-chickens = polli / galline
-in maniera = in modo = in manner = in way
-
-words changes
--------------
-la roccia = the boulder
-la pietra = the stone
-strega
-reame
-ennesima
-condurla (condurre) ? to take our
-commuovere ? emotional
-fuggire ? kidnap
-ingiunse ?
-radura (del bosco) ? clearing (in the woods)
-allineati ? aligned
-riavvutassi
-miniera = mine
-accudiva ? embrace
-atto ? moment (but longer)
-travestitassi ? disguised cross dressed
-fanciulla ? bribe
-avvelenata ? poisonous
-
 
 
 
@@ -204,8 +262,41 @@ games for italian club
 
 
 
-words
-------
+
+past situations --> past tenses
+-------------------------------
+(priority order)
+habitual --> imperfetto
+two things going on simultaneously --> imperfetto
+one thing going on and other inserts --> imperfetto + passato prossimo
+state of mind --> imperfetto
+one time thing(s) --> passato prossimo
+repeated in non habitual way --> passato prossimo
+two things in succession --> passato prossimo
+
+
+
+
+masculine words that end in "a"
+--------------------------------
+il cinema
+il panorama
+il problema
+il poeta
+il tema
+il sistema
+il pianeta
+il clima
+il giornalista
+(the list is not exhaustive)
+
+
+
+
+
+
+words i want to know
+----------------------
 quotidiani/o
 
 to taste test = assagiamo
@@ -215,9 +306,5 @@ snervante = enervating
 
 driver's license = la patente
 at the time = allora come allora / in quella circostanza
-
-
-
-
 
 
