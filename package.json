@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "check-types": "^7.4.0",
-    "csv-parse": "^2.5.0",
+    "csv-parse": "^4.6.3",
     "datejs": "^1.0.0-rc3",
     "gulp": "^4.0.0",
     "jquery": "^3.3.1",
