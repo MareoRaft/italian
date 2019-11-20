@@ -346,4 +346,12 @@ you annoy me = mi infastidisci
 attendere = to wait for
 to attend a class = frequentare un corso
 
+transition words
+----------------
+first thing in the morning -> ?
+
+
+
+
+
 
