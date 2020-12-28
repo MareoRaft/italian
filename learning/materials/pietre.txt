@@ -1,0 +1,26 @@
+
+
+massicciata = a cliff
+scogliera = big boulder aggregation that sits in the water
+scoglio = boulder, could be part of a cliff, or part of scogliera
+roccia = boulder
+pietra = stone (in general)
+"pietrolina" = "pietrina" = pebble
+pietrisco = gravel (the material)
+ghiaia = gravel
+sasso = rock
+ciottolo = smooth rock
+ciottoli di fiume = smooth rock from a river
+sassolino = pebble
+? = cobblestone
+sanpietrini = i ciottoli per fare acciottolato
+
+
+
+
+other
+----------
+sassata = a throw of a sasso.  It is an action you take against someone.
+acciottolato = paved (adj)
+lastricata = paved (adj)
+

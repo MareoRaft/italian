@@ -1,7 +1,3 @@
-verbal planet
-https://www.verbalplanet.com/pricing.asp
-
-
 
 words for handle
 ~~~~~~~~~~~~~~~~
@@ -16,11 +12,4 @@ il manubrio -- handle bars, the handle of weights, barbell
 
 
 
-
-
-idiomatic expressions
-----------------------
-
-De gustibus non disputandum est
-I gusti non si discutono
 

@@ -1,0 +1,16 @@
+Sinonimi per contenatori
+----------------------------
+
+catinella - bucket
+secchio - bucket
+bidone - bin
+casetta - bin
+cassa - chest
+cestino - basket
+ciotola - bowl
+vasca - basin
+vasca da bagno - bathtub
+contenatore - container
+scatola - box
+
+
