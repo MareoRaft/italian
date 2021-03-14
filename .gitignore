@@ -1,6 +1,8 @@
 ### Misc ###
 _build/
 package-lock.json
+citizenship/
+reading/
 
 
 

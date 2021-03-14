@@ -1,0 +1,14 @@
+I pezzi di scacchi
+===================
+
+  * re
+
+  * donna -> means "woman". the queen.
+
+  * alfiere -> from arab "al fil" meaning "elephant", since the piece was originally depicted as an elephant.  "alfiere" in italian means portabandiera.  The italian word for bishop is "vescovo".
+
+  * cavallo -> means "horse". the knight.
+
+  * torre -> means "tower". the rook.
+
+  * pedone -> from the latin "pedonem" which means "foot soldier".

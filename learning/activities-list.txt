@@ -7,8 +7,8 @@ reading
   * fairy tales
     - favole al telefono
   * books
-    - cavaliere inesistente
-    - Il Barone Rampante
+    - Cavaliere inesistente
+    - Il barone rampante
     - L'amica geniale
   * newspapers
 
@@ -17,19 +17,22 @@ reading
 
 listening
 -------------------
-  * podcasts, such as Podcast Italiano
-  * podcast, Duolingo
+  * podcasts
+    - Podcast Italiano
+    - Duolingo
   * songs
+  * radio
+    - https://www.radioitalia.it/player
+    - http://www.leradio.com/radio-orizzonte-molise.html
 
 
 
 
-
-writing
+writing (write your own...)
 --------------------
-  * write your own fairy tale
-  * write your own short story
-  * write a summary of a book
+  * fairy tales
+  * short stories
+  * summary of a book you read
   * have a conversation and simultaneously write down what you are saying on Google Docs.  Post a picture into the doc and then talk about it.
 
 
@@ -38,10 +41,16 @@ writing
 
 watching
 -------------------
-  * watch shows dubbed into Italian, such as "The Crown" (dubbed shows have excellent grammar and pronunciation)
-  * Learn Italian with Lucrezia channel on youtube
-  * Un Italiano Vero channel on youtube
-  * watch italian television series, such as L'amica geniale
+  * television series
+    - dubbed into Italian (dubbed shows have excellent grammar and pronunciation)
+      @ The Crown
+    - produced in Italian
+      @ L'amica geniale (in Neopolitan, but you can enable subtitles)
+  * YouTube channels
+    - Learn Italian with Lucrezia
+    - Un Italiano Vero
+  * movies
+    - Caro Diario
 
 
 
@@ -59,14 +68,15 @@ grammar
 
 vocabulary
 -----------------
-  * apps, such as Tiny Flash
-  * Anki
+  * flash cards
+    - Tiny Flash app (has many user-submitted flashcard sets you can use, including Duolingo ones)
+    - Anki (uses spaced repetition for efficient learning)
   * word games
     - https://www.giochi123.net/gioco/microsoft-ultimate-word-games
   * board games
     - Taboo (but speak in italian)
     - sherades
-
+    - https://it.boardgamearena.com/
 
 
 
@@ -76,7 +86,7 @@ conversing
   * debates, pick a topic and argue both sides
   * conversation starters
     - https://psycatgames.com/it/magazine/conversation-starters/questions-to-get-to-know-someone/
-
+  * share & guess: one person posts picture, other person guesses/describes the situation, original person says what the real situation was
 
 
 
