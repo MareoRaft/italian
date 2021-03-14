@@ -15,14 +15,14 @@ PATH = dict()
 if is_server():
 	PATH['repo'] = '/usr/home/freebsd/italian'
 else:
-	PATH['repo'] = '/Users/Matthew/programming/italian'
+	PATH['repo'] = path.dirname(path.abspath(__file__))
 # source
 PATH['source'] = path.join(PATH['repo'], 'source')
 # build
 if is_server():
 	PATH['build'] = '/home/freebsd/static-file-server/italian'
 else:
-	PATH['build'] = path.join(PATH['repo'], '_build')
+	PATH['build'] = path.join(PATH['repo'], '_build/italian')
 
 def build_js():
 	""" generate JavaScript bundle using browserify """

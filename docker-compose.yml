@@ -1,0 +1,8 @@
+services:
+  build:
+    restart: 'no'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./_build:/home/matt/work/_build
