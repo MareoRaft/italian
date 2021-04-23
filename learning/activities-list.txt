@@ -2,6 +2,8 @@ Activities for learning italian
 =================================
 
 
+
+
 reading
 -----------------
   * fairy tales
@@ -10,6 +12,7 @@ reading
     - Cavaliere inesistente
     - Il barone rampante
     - L'amica geniale
+    - Il giardino dei Finzi-Contini
   * newspapers
 
 
@@ -87,6 +90,9 @@ conversing
   * conversation starters
     - https://psycatgames.com/it/magazine/conversation-starters/questions-to-get-to-know-someone/
   * share & guess: one person posts picture, other person guesses/describes the situation, original person says what the real situation was
+  * group chats
+    - Lingua Franca su Telegram
+    - NYC Polyglot groups su FB Messenger
 
 
 
