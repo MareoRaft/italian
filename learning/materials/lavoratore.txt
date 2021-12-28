@@ -1,0 +1,9 @@
+
+lavoratore
+
+operaio
+
+manovale - manual laborer
+
+bracciante - day laborer
+

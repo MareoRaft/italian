@@ -1,0 +1,14 @@
+or --> means "ora"
+-
+example: Noi stavamo piangendo or non piangiamo più
+equiv:  Noi stavamo piangendo ora non piangiamo più
+trans:  We were crying now we aren't crying anymore
+
+
+
+d'or --> means d'oro
+-
+
+
+
+

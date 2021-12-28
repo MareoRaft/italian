@@ -1,5 +1,6 @@
 Activities for learning italian
-=================================
+================================
+
 
 
 reading
@@ -11,6 +12,8 @@ reading
     - Il barone rampante
     - L'amica geniale
   * newspapers
+  * Casa Italiana NYC book club
+    - http://casaitaliananyu.org/activities/italian-book-club
 
 
 
@@ -24,6 +27,7 @@ listening
   * radio
     - https://www.radioitalia.it/player
     - http://www.leradio.com/radio-orizzonte-molise.html
+  * Clubhouse
 
 
 
@@ -34,7 +38,7 @@ writing (write your own...)
   * short stories
   * summary of a book you read
   * have a conversation and simultaneously write down what you are saying on Google Docs.  Post a picture into the doc and then talk about it.
-
+  * Telegram instant messaging group "Lingua Franca"
 
 
 
@@ -87,6 +91,33 @@ conversing
   * conversation starters
     - https://psycatgames.com/it/magazine/conversation-starters/questions-to-get-to-know-someone/
   * share & guess: one person posts picture, other person guesses/describes the situation, original person says what the real situation was
+  * Clubhouse
+
+
+
+courses
+----------------
+  * link_eus
+
+
+
+video games
+---------------
+  * games with localization
+    - hearthstone
+	  @ regular mode
+	  @ battlegrounds mode
+    - Freeciv
+      @ https://freeciv.fandom.com/wiki/Interface_Language
+	- Minecraft
+	- Fallout
+	- Heroes of Might and Magic
+
+
+
+
+
+
 
 
 

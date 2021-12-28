@@ -2,8 +2,8 @@
 
 
 feline - felino
-cat - gatto
-pisittu = gatto (in sardo)
+cat - gatto - gato
+pisittu = gatto (in sardo (da Sardegna))
 mussittu = gatto (in sardo)
 little cat - gattino
 baby cat - cucciolo di gatto, cuccioletto di gatto
