@@ -3,6 +3,8 @@ Activities for learning italian
 
 
 
+
+
 reading
 -----------------
   * fairy tales
@@ -11,6 +13,7 @@ reading
     - Cavaliere inesistente
     - Il barone rampante
     - L'amica geniale
+    - Il giardino dei Finzi-Contini
   * newspapers
   * Casa Italiana NYC book club
     - http://casaitaliananyu.org/activities/italian-book-club
@@ -38,7 +41,6 @@ writing (write your own...)
   * short stories
   * summary of a book you read
   * have a conversation and simultaneously write down what you are saying on Google Docs.  Post a picture into the doc and then talk about it.
-  * Telegram instant messaging group "Lingua Franca"
 
 
 
@@ -91,7 +93,11 @@ conversing
   * conversation starters
     - https://psycatgames.com/it/magazine/conversation-starters/questions-to-get-to-know-someone/
   * share & guess: one person posts picture, other person guesses/describes the situation, original person says what the real situation was
-  * Clubhouse
+  * group chats
+    - Clubhouse
+    - Lingua Franca su Telegram
+    - NYC Polyglot groups su FB Messenger
+
 
 
 
@@ -112,7 +118,6 @@ video games
 	- Minecraft
 	- Fallout
 	- Heroes of Might and Magic
-
 
 
 
