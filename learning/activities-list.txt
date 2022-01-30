@@ -79,6 +79,9 @@ vocabulary
     - Anki (uses spaced repetition for efficient learning)
   * word games
     - https://www.giochi123.net/gioco/microsoft-ultimate-word-games
+    - Wordle game!!!
+      @ https://wordlegame.org/wordle-in-italian
+      @ https://pietroppeter.github.io/wordle-it/
   * board games
     - Taboo (but speak in italian)
     - sherades
