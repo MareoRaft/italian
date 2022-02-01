@@ -5,6 +5,24 @@ Activities for learning italian
 
 
 
+giochi
+---------
+todo: maybe organize these into below catgories
+  * tombola
+  * taboo
+  * sherades
+  * leggere un libro
+  * indovinare chi
+  * madlib italiano
+http://forum.impariamo.com/viewtopic.php?t=6
+  * dibattiti
+
+
+
+
+
+
+
 reading
 -----------------
   * fairy tales
