@@ -1,0 +1,55 @@
+Primo tipo di zeta
+---
+Si chiama "z sorda" o "zeta aspra"
+Si pronuncia
+  tz
+  ts
+Esempi
+	"zz"
+	dolcezza
+	bellezza
+	pizza
+	mozzarella
+	"n"
+	danza
+	stanza
+	fidanzato
+	finanza
+	speranza
+	"r"
+	sforzo
+	terzo
+	"l"
+	alzarsi
+	"zi"
+	zio
+	zia
+	zie
+	zii
+	grazie
+	anziano
+	vizio
+	ronzii
+Quando si vede?
+	di solito, dopo la
+		"l"
+		"n"
+		"r"
+
+
+Secondo tipo di zeta
+---
+Si chiama "z dolce" o "zeta sonora"
+Si pronuncia
+	z
+Esempli
+	"\bz[aeou]"
+	zanzara
+	zodiaco
+	zona
+	zabaione
+	zeta
+	zero
+	zelo
+
+	

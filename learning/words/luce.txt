@@ -3,6 +3,7 @@
 
 luce = light
 lucerna = oil lamp
+lucciola = firefly, prostitute
 
 
 lume = light, lamp
@@ -19,6 +20,7 @@ lampadario = chandelier / thing around a hanging lightbulb to make it look nice
 
 
 lanterna = lantern
+lanternino = small lantern
 
 
 

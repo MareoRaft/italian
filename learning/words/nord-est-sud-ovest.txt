@@ -1,0 +1,31 @@
+sostantivo, aggettivo
+---
+
+nord, nordico / settentrionale
+
+est / levante / oriente, orientale
+
+sud / meridione, meridionale
+
+ovest / ponente / occidente, occidentale
+
+
+
+
+
+"Gobba a ponente, luna crescente. Gobba a levante, luna calante."
+
+
+
+
+levante = est
+levante = oriente
+levante = vento di est
+
+ponente = ovest
+ponente = occidente
+ponente = vento da ovest
+
+scirocco = vento di sud-est
+
+
