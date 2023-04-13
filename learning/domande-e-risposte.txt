@@ -1,23 +1,48 @@
-goals for today
----------------
-  * questions
-  * practice the passato prossimo vs imperfetto
-
-it was a pleasure = e or era?
+Q
+What are examples of using the word visitare?
 
 
 
+Q
+Are there situations where a sentence *begins* with "che", but CANNOT use "cosa" instead?
+Che cibo vuoi?  Cosa cibo vuoi?
+--> Francesca says "cosa cibo vuoi" is not correct.
+
+"cosa" is the THING.  Therefore, if the THING exists in the sentence, you CANNOT use cosa.
+
+For example,
+
+Cosa maglia ti piace?
+Cosa studente è il tuo preferito?
+Cosa truffa hai inventato oggi?
+
+Are all WRONG, because "maglia", "studente", and "truffa" are the THING.
 
 
 
-current q's
------------
+
+Q
+Is Stefania pronounced StefAnia or StefanIa?
+StefAnia
+
+
+
+Q
+ed vs e?  when to use?
+
+word eccitato?  should use emozionale instead?
+
+
+
+
 "mantieni coda" ?
 "rimuovi coda" ?
+
 
 for countries use article, but for cities no?  when to not use article?
 Sono andato nell'Italia
 Sono andato a Milano
+
 
 diff btw "apprendimento" and "imparare"?  Does it have a verb form?
 the act of learning
@@ -48,28 +73,46 @@ sicchè
 indi per cui
 
 
-
 what is "con sapevole"?  is it a word?
 
 
 
 
 
+Q
+Why does the following use the congiuntivo?
+Non domandano cosa significhi questa parola.
 
-goals
--------
-  * practice the educato
-  * ask some questions
-  * practice "ci"
-  * practice the "it" indirect/direct pronouns
+The verb "domandare" shows uncertainty, so you use congiuntivo.
 
 
 
-feedback
----------
-  * listening to lucrezia is good, once in a while
-  * lessons are good, but maybe not more than 3/wk
-  * anki is more reactive than tinyflash, but maybe don't add too many cards too often --> now only 5 new words per day, and those words come from something in my lesson that i liked --> 5 words a day is pretty ok.  give stress about doing anki, but actually doing it is fun. --> continues to have a feeing of stress.  going to try not doing anki again, and when not interacting w ppl, may try writing italian paragraphs.
+Q
+Why is this using the congiuntivo?
+È il romanzo più interessante che io ABBIA letto.
+
+Because it's an opinion.  But it could go either way.
+
+
+
+Q
+Why is the following using congiuntivo?
+Si dice che tu PERDA troppo tempo.
+
+
+
+
+Q
+it was a pleasure = e or era?
+
+
+
+Q
+first thing in the morning -> ?
+
+
+
+
 
 
 
@@ -213,145 +256,3 @@ word eccitato?  should use emozionato instead?
 "spento vs scarico": if i say "il mio telefonino è spento", am I saying it's broken or out of batteries?
   - it's turned off
   - use "scarico" if you want to say charge is empty
-
-ci - substitutes "la" meaning "there" or "in this place" "a quel posto".
-  conto SU questa cosa --> ci conto
-
-"preposizioni"
---------------
-situation:
-  * departing for a place (partire)
-  * passing by a place (passare)
--> per
-
-situation:
-  * staying at a place (abitare, vivere, stare, restare, rimanere)
-  * going to a place (andare, viaggiare, tornare, correre)
-large islands, regions, and larger -> in
-small islands, towns -> a
-generic places ending in ria, cia, teca -> in
-chiesa, piscina, palestra, ufficcio -> in
-other generic places -> a
-person (nonna, dentista) -> da
-
-situation:
-  * coming from a place (venire, tornare...)
--> da
-
-note: go back to that video and watch it through again.  then go to the links in the
-
-details for other preposition videos
-
-prepositions of time:
-past to now -> da
-now to future -> a
-past -> per
-future -> per
-future moment -> tra
-
-
-
-
-"loro" -> li
-"a loro" -> gli
-"di loro" -> ne
-"da loro" -> ne
-"con loro" -> con loro
-per loro -> per loro
-(these can't use a pronoun)
-
-
-
-for the formal/educato, when doing a command, the mi comes still before:
-"mi scusi"
-informal
-"scusami"
-because the "scusi" here is congiuntivo/subjunction.  Congiuntivo is used for commands.
-
-
-
-
-notes
------
-ne - use specifically for
-    di lui, di lei, di loro,
-    da lui da lei da loro
-    di questo di qualcosa di verbo
-
-
-
-there are big tech companies in Milan.  a programmer who speaks english and italian can find a job there quickly.
-companies -> Rocket internet.
-
-
-links
------
-https://ankiweb.net/shared/decks/italian
-
-
-
-games for italian club
----------------------
-  * the vocab game
-  * "sherades" - think of a noun like "dog" and without saying dog, describe in italian what it is
-
-
-
-
-
-
-past situations --> past tenses
--------------------------------
-(priority order)
-habitual --> imperfetto
-two things going on simultaneously --> imperfetto
-one thing going on and other inserts --> imperfetto + passato prossimo
-feelings / state of mind --> both, lean towards imperfetto
-one time thing(s) --> passato prossimo
-repeated in non habitual way --> passato prossimo
-two things in succession --> passato prossimo
-
-
-
-
-masculine words that end in "a"
---------------------------------
-il cinema
-il panorama
-il problema
-il poeta
-il tema
-il sistema
-il pianeta
-il clima
-il giornalista
-(the list is not exhaustive)
-
-
-
-
-
-
-words i want to know
-----------------------
-realizzare = to fulfill / create
-to realize = rendersi conto di = mi sono resa conto di non avere le chiavi!
-to cancel = annullare
-to cancel a meeting = annullare una riunione
-pretendere = to expect
-to pretend = fare finta di
-faccio finta di essere una ballerina
-to annoy = infastidire
-you annoy me = mi infastidisci
-attendere = to wait for
-to attend a class = frequentare un corso
-
-transition words
-----------------
-first thing in the morning -> ?
-
-
-
-
-
-
