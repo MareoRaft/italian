@@ -1,65 +1,39 @@
 Q
+How do you say...?
+grain - cereali
+wheat - grano (o frumento)
+hulled wheat, emmer wheat, spelt - farro
+einkorn wheat - farro piccolo
+emmer wheat - farro medio
+spelt - farro grande
+barley - orzo
+oat (crop) - avena
+oat (cereal grain) - fiocchi d'avena
+bran (the outer layers of cereal grains) - crusca
+
+
+
+
+
+Q
 What are examples of using the word visitare?
 
 
 
-Q
-Are there situations where a sentence *begins* with "che", but CANNOT use "cosa" instead?
-Che cibo vuoi?  Cosa cibo vuoi?
---> Francesca says "cosa cibo vuoi" is not correct.
-
-"cosa" is the THING.  Therefore, if the THING exists in the sentence, you CANNOT use cosa.
-
-For example,
-
-Cosa maglia ti piace?
-Cosa studente è il tuo preferito?
-Cosa truffa hai inventato oggi?
-
-Are all WRONG, because "maglia", "studente", and "truffa" are the THING.
-
-
 
 
 Q
-Is Stefania pronounced StefAnia or StefanIa?
-StefAnia
-
-
-
-Q
-ed vs e?  when to use?
-
-word eccitato?  should use emozionale instead?
-
-
-
-
 "mantieni coda" ?
 "rimuovi coda" ?
 
 
+Q
 for countries use article, but for cities no?  when to not use article?
-Sono andato nell'Italia
+Sono andato nell'Italia?
+Sono andato in Italia?
 Sono andato a Milano
 
 
-diff btw "apprendimento" and "imparare"?  Does it have a verb form?
-the act of learning
-l'apprendimento di una lingua
-the learning instruments
-i metodi di apprendimento
-gli strumenti di apprendimento
-apprendere is a verb (syn w imparare), molto raro
-
-
-diff btw "seguire" and "susseguire"?  examples?
-two situations to use it
-  * the act of events coming one after the other
-  * one event comes right after the other
-succeed
-i pensieri susseguono velocemente
-un susseguirsi di idee
 
 
 what is the difference btw "quindi" and "dunque".  Other "therefore" words?  Difference btw them all / situations you use them in?
@@ -256,3 +230,54 @@ word eccitato?  should use emozionato instead?
 "spento vs scarico": if i say "il mio telefonino è spento", am I saying it's broken or out of batteries?
   - it's turned off
   - use "scarico" if you want to say charge is empty
+
+
+
+Q
+Is Stefania pronounced StefAnia or StefanIa?
+A
+StefAnia
+
+
+
+Q
+Are there situations where a sentence *begins* with "che", but CANNOT use "cosa" instead?
+A
+Che cibo vuoi?  Cosa cibo vuoi?
+--> Francesca says "cosa cibo vuoi" is not correct.
+
+"cosa" is the THING.  Therefore, if the THING exists in the sentence, you CANNOT use cosa.
+
+For example,
+
+Cosa maglia ti piace?
+Cosa studente è il tuo preferito?
+Cosa truffa hai inventato oggi?
+
+Are all WRONG, because "maglia", "studente", and "truffa" are the THING.
+
+
+
+
+Q
+diff btw "apprendimento" and "imparare"?  Does it have a verb form?
+A
+the act of learning
+l'apprendimento di una lingua
+the learning instruments
+i metodi di apprendimento
+gli strumenti di apprendimento
+apprendere is a verb (syn w imparare), molto raro
+
+
+
+Q
+diff btw "seguire" and "susseguire"?  examples?
+A
+two situations to use it
+  * the act of events coming one after the other
+  * one event comes right after the other
+succeed
+i pensieri susseguono velocemente
+un susseguirsi di idee
+
