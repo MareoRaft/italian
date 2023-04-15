@@ -1,0 +1,13 @@
+
+
+grain - cereali
+wheat - grano (o frumento)
+hulled wheat, emmer wheat, spelt - farro
+einkorn wheat - farro piccolo
+emmer wheat - farro medio
+spelt - farro grande
+barley - orzo
+oat (crop) - avena
+oat (cereal grain) - fiocchi d'avena
+bran (the outer layers of cereal grains) - crusca
+
