@@ -1,4 +1,13 @@
 
+Q
+Ho fame, mangio la bistecca ai ferri che ha preparato mio marito.
+Avevo fame, ho mangiato la bistecca ai ferri che __aveva__ preparato mio marito.
+
+Why did we use "aveva" there?
+
+
+
+
 
 Q
 What are examples of using the word visitare?
