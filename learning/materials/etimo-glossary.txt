@@ -1,0 +1,25 @@
+alb - albanese
+arm - armeno
+armoric - armoricano == basso bretone **
+cal-sic - calabro siculo
+cec - czeco
+cimb - cimbrico **
+cfr - confrontisi *
+
+
+intens. -- intensivo
+
+m.ted -- tedesco moderno
+mod.a.ted - moderno alto tedesco
+
+moden. - modenese
+
+neol - neolatino **
+
+priv. - privativo
+propr - propriamente
+rtr - retico romanzo
+.
+.
+scot. -- scoto gaelico
+cr. -- croato
