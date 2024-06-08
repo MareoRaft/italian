@@ -231,10 +231,10 @@ How to say "He did the job".  Use "lo" or "ci"?
   * lavori ancora al bar?  "no, non ci lavoro piu"
 
 "ed": Do I say "i pro e i contro" or "i pro ed i contro"?
-  * Definitive rule: for the words "e", "a", "o", iff next word begins with the same letter, use a "d".
+  * Definitive rule: for the words "e", "a", "o", iff next word begins with the same letter, use a "d".  BUT people don't use it for "o" in modern Italian anymore.
   * For example, "banana ed eucalipto" and "ad andare".
-  * exception: "ad esempio"
-  * note: people have begun to use the "d" when the next word begins with ANY vowel, even though this is not the official rule
+  * exception: there are some fixed phrases that always take the d: "ad esempio", "fino ad ora", "fino ad oggi"
+  * note: you can use the "d" when the next word begins with ANY vowel, even though this is not the official rule.  it is kindof up to the speaker.
 
 Do adjectives after a verb agree with the gender of the subject?
 For example, "lui è basso, lei è bassa".  Or is it ALWAYS basso?

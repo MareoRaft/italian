@@ -1,5 +1,5 @@
-Activities for learning italian
-================================
+Attività per imparare italiano
+==============================
 
 
 
@@ -11,7 +11,6 @@ todo: maybe organize these into below catgories
   * tombola
   * taboo
   * sherades
-  * leggere un libro
   * indovinare chi
   * madlib italiano
 http://forum.impariamo.com/viewtopic.php?t=6
@@ -23,7 +22,7 @@ http://forum.impariamo.com/viewtopic.php?t=6
 
 
 
-reading
+leggere
 -----------------
   * fairy tales
     - favole al telefono
@@ -39,7 +38,7 @@ reading
 
 
 
-listening
+ascolto
 -------------------
   * podcasts
     - Podcast Italiano
@@ -55,9 +54,9 @@ listening
 
 writing (write your own...)
 --------------------
-  * fairy tales
-  * short stories
-  * summary of a book you read
+  * favole
+  * racconti brevi
+  * riassunto di un libro che hai letto
   * have a conversation and simultaneously write down what you are saying on Google Docs.  Post a picture into the doc and then talk about it.
 
 
@@ -86,6 +85,7 @@ grammar
   * worksheets from my italian teacher on Google Docs
   * fill in the blank exercises
     - http://www.impariamoitaliano.com/
+    - https://onlineitalianclub.com/free-italian-exercises-and-resources/
 
 
 
