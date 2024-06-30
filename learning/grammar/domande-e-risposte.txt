@@ -1,19 +1,3 @@
-Q "Si mangiava le unghie DEI DITI indici delle sue mani." from http://www.impariamoitaliano.com/2f09.htm
-
-Why is it i diti instead of le dita?
-
-
-
-
-
-Q When "ciò" is used as subject of following verb, does it have to be singular, or match plurality, or either?
-
-I ricordi sono ciò che mi aiutano ad andare avanti.
-o
-I ricordi sono ciò che mi aiuta ad andare avanti.
-
-
-
 
 
 
@@ -24,18 +8,7 @@ E tutti possono fare qualcosa in quanto individui.
 
 I suoi godevano di buona salute, ma ormai erano avanti con gli anni e in quanto futuro direttore Kumi si era già assunta un gran numero di responsabilità.
 
-
-
-
-
-
-
-
-Q
-Ho fame, mangio la bistecca ai ferri che ha preparato mio marito.
-Avevo fame, ho mangiato la bistecca ai ferri che __aveva__ preparato mio marito.
-
-Why did we use "aveva" there?
+ALESSANDRA
 
 
 
@@ -83,7 +56,7 @@ what is "con sapevole"?  is it a word?
 Q
 Why does the following use the congiuntivo?
 Non domandano cosa significhi questa parola.
-
+A
 The verb "domandare" shows uncertainty, so you use congiuntivo.
 
 
@@ -91,7 +64,7 @@ The verb "domandare" shows uncertainty, so you use congiuntivo.
 Q
 Why is this using the congiuntivo?
 È il romanzo più interessante che io ABBIA letto.
-
+A
 Because it's an opinion.  But it could go either way.
 
 
@@ -307,4 +280,67 @@ two situations to use it
 succeed
 i pensieri susseguono velocemente
 un susseguirsi di idee
+
+
+
+
+Q
+Che la pizza non sia facile da preparare è un dato di fatto.  Perché si usa il congiuntivo qua?  Qual è lo schema?
+A
+È un dato di fatto che la pizza non sia facile da preparare.
+È un discorso indiretto.
+Stai riportando un'idea o un'affermazione.
+In latino si chiama "completiva", che usa il congiuntivo.
+
+
+
+
+
+Q
+In quali situazioni usiamo la locuzione "da parte di"?  Tipo ho ricevuto un pacco da parte di tuo fratello.
+A
+Significa che questa persona ha fatto qualcosa per te.
+Per conto di un altro.
+Da parte mia, penso di aver fame  (lo puoi usare per un'opinione)
+Ormai si usa per la maggior parte per i pacchi, regali, e la opinione.  Perché si può usare "da" e basta in altre situazione.
+Da loro un bacio da parte mia (but you could also say "da me")
+Sarebbe inappropriato da parte mia fare supposizioni.
+Auguragli buona fortuna da parte mia.
+
+
+
+
+
+Q "Si mangiava le unghie DEI DITI indici delle sue mani." from http://www.impariamoitaliano.com/2f09.htm
+
+Why is it i diti instead of le dita?
+A
+Perché "le dita" si usa solo per L'INSIEME delle dita di una mano.  Qui parliamo dei diti indici solo.
+
+
+
+
+
+Q When "ciò" is used as subject of following verb, does it have to be singular, or match plurality, or either?
+
+I ricordi sono ciò che mi aiutano ad andare avanti. <-- QUESTO È CORRETTO
+o
+I ricordi sono ciò che mi aiuta ad andare avanti. <-- QUESTo è COMUNISSIMO e praticamente sarà nei libri di grammatica in futuro
+A
+See what I added in all caps.
+
+
+
+
+
+
+
+Q
+Ho fame, mangio la bistecca ai ferri che ha preparato mio marito.
+Avevo fame, ho mangiato la bistecca ai ferri che __aveva__ preparato mio marito.
+
+Why did we use "aveva" there?
+A
+Perché lui ha preparato la bistecca prima che lei l'avesse mangiata.
+Quando si parla nel tempo passato a poi si riferisce ad una cosa che è successo ancora più in passato, si usa <imperfetto + participio passato>.
 
