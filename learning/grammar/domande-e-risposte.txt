@@ -341,6 +341,60 @@ Avevo fame, ho mangiato la bistecca ai ferri che __aveva__ preparato mio marito.
 
 Why did we use "aveva" there?
 A
-Perché lui ha preparato la bistecca prima che lei l'avesse mangiata.
+Perché lui aveva preparato la bistecca PRIMA CHE lei la mangiasse.
 Quando si parla nel tempo passato a poi si riferisce ad una cosa che è successo ancora più in passato, si usa <imperfetto + participio passato>.
+
+
+
+
+
+Q
+Quando usare "il che" e non "che".  Vediamo un po' gli esercizi...
+
+Sono andato al parco, il che ha fatto piacere a Giorgio, per esercitarmi.
+Sono andato al parco, che è faticoso, per esercitarmi.
+
+Sono andato al parco, il quale è situato sulle colline, per esercitarmi.
+Sono andato al parco, che è situato sulle colline, per esercitarmi.
+Sono andato al parco, il che è situato sulle colline, per esercitarmi. --> non ha senso
+
+
+A
+"che" è un sostantivo.  "Il che" è un sostantivo.
+"il che" riferisce a tutta la frase precedente.  "Che" può essere ambiguo, può riferire a tutta o alla parola precedente.
+IL CHE NON PUÒ RIFERIRE AL "PARCO" da solo.
+Diciamo che si dovrebbe usare "il che" per riferire alla frase precedente e "che" per la singola parola, ma che quando non c'è ambiguo quasi sempre ommettiamo il "il" e resta solo "che".  Quindi "il che" non è molto usato perché i casi ambigui sono pochi.
+
+Frase = frase
+Sentence = periodo
+
+- il che = which
+- https://www.impariamoitaliano.com/rel54.htm
+- You can see in the exercise that in older Italian, the "il" is required.
+- Da piccolo ero molto bravo a scuola, il che rendeva orgogliosi i miei genitori. 
+- Quando non stanno insieme, il che succede molto spesso, Monica e Giuseppe si scrivono molti messaggini. 
+
+
+
+
+
+
+Q
+Es: "Anche se avesse cucinato la carbonara, i bambini avevano ancora fame."
+"Sebbene" e "prima che" funzionano qua, o no?
+
+Anche se usa un periodo ipotetico.  The "anche se" below is all hypothetical, it didn't happen.
+"Anche se avesse cucinato la carbonara, i bambini avevano ancora fame." --> scorretto
+"Anche se avesse cucinato la carbonara, i bambini avrebbero avuto ancora fame."  --> corretto
+
+These are real.  They happened.
+"Sebbene avesse cucinato la carbonara, i bambini avevano ancora fame."  --> corretto
+"Nonostante avesse cucinato la carbonara, i bambini avevano ancora fame."  --> corretto
+
+Prima che avesse cucinato la carbonara, i bambini avevano fame.  --> ha senso
+Prima che avesse cucinato la carbonara, i bambini avevano ancora fame.  --> non ha senso da sola.  A che parla questa "ancora"
+
+
+
+
 

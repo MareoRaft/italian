@@ -26,8 +26,7 @@ es:
 
 Doubts
 ---
-2. Anche se avesse cucinato la carbonara, i bambini avevano ancora fame.
-- (why do "Sebbene" and "Prima che" not work here?)
+
 3. Ho messo appena due camicie perché non ho bisogno di molto.
 - (it "just" numberwise and not timewise. Notice that "appena" is located after messo, not before.  Before would be applying the just to messo.  But here it applies to "due" instead.  So you put "appena" immediately before the word you want to modify, just like you do with JUST in ENGLISH!)
 - "soltanto"
@@ -49,19 +48,6 @@ We left from Milan on the 7:30 flight
 Siamo partiti da Milano CON il volo DELLE 7:30.
 
 Ero tornato da poco a casa quando qualcuno bussò alla mia porta.
-
-
-
-
-
-il che
-------
-- il che = which
-- https://www.impariamoitaliano.com/rel54.htm
-- Da piccolo ero molto bravo a scuola, il che rendeva orgogliosi i miei genitori. 
-- Quando non stanno insieme, il che succede molto spesso, Monica e Giuseppe si scrivono molti messaggini. 
-
-
 
 
 
