@@ -1,3 +1,11 @@
+Ti conviene prenotare per tempo se vuoi cenare in quel ristorante.
+You'd better make reservations early if you want to dine in that restaurant.
+
+Siamo arrivati or ora da Milano.
+We have just now arrived from Milan.
+
+
+
 When talking about receiving gifts, you don't say "from" your brother, but more like "on behalf of" your brother.
 
 es:
@@ -16,6 +24,7 @@ C'è un pacco regalo da parte di tuo fratello.
 cambiare in meglio
 es:
 -È cambiata in meglio
+-It has changed for the better
 
 
 
