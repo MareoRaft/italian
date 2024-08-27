@@ -2,17 +2,6 @@
 
 
 
-Q How to translate? What is role of "in quanto"?
-
-E tutti possono fare qualcosa in quanto individui.
-
-I suoi godevano di buona salute, ma ormai erano avanti con gli anni e in quanto futuro direttore Kumi si era già assunta un gran numero di responsabilità.
-
-ALESSANDRA
-
-
-
-
 
 Q
 What are examples of using the word visitare?
@@ -26,11 +15,6 @@ Q
 "rimuovi coda" ?
 
 
-Q
-for countries use article, but for cities no?  when to not use article?
-Sono andato nell'Italia?
-Sono andato in Italia?
-Sono andato a Milano
 
 
 
@@ -45,9 +29,6 @@ di conseguenza
 sicchè **
 indi per cui
 
-
-
-what is "con sapevole"?  is it a word?
 
 
 
@@ -363,7 +344,7 @@ A
 "che" è un sostantivo.  "Il che" è un sostantivo.
 "il che" riferisce a tutta la frase precedente.  "Che" può essere ambiguo, può riferire a tutta o alla parola precedente.
 IL CHE NON PUÒ RIFERIRE AL "PARCO" da solo.
-Diciamo che si dovrebbe usare "il che" per riferire alla frase precedente e "che" per la singola parola, ma che quando non c'è ambiguo quasi sempre ommettiamo il "il" e resta solo "che".  Quindi "il che" non è molto usato perché i casi ambigui sono pochi.
+Diciamo che si dovrebbe usare "il che" per riferire alla frase precedente e "che" per la singola parola, ma che quando non c'è ambiguo quasi sempre omettiamo il "il" e resta solo "che".  Quindi "il che" non è molto usato perché i casi ambigui sono pochi.
 
 Frase = frase
 Sentence = periodo
@@ -384,7 +365,7 @@ Es: "Anche se avesse cucinato la carbonara, i bambini avevano ancora fame."
 "Sebbene" e "prima che" funzionano qua, o no?
 
 Anche se usa un periodo ipotetico.  The "anche se" below is all hypothetical, it didn't happen.
-"Anche se avesse cucinato la carbonara, i bambini avevano ancora fame." --> scorretto
+"Anche se avesse cucinato la carbonara, i bambini avevano ancora fame." --> non corretto
 "Anche se avesse cucinato la carbonara, i bambini avrebbero avuto ancora fame."  --> corretto
 
 These are real.  They happened.
@@ -552,6 +533,66 @@ La "ci" significa "insieme" o "con lei" però rappresenta noi insieme.  Colloqui
 Es: Ci esco   <-- colloquiale
 Esco con lei  <-- più corretto
 
+
+
+
+
+Q
+When can you use the word "scorretto"?
+
+A
+You cannot use it to describe a fact or sentence as "incorrect".
+You can only use it to describe a person who does something bad, or sometimes a situation.
+- Quella person non dovrebbe fare quella cosa.  Quella persona è scorretta.
+- La traduzione di "in quanto" con "as" in inglese non è corretta.
+So for a fact you must say "non è corretto" or "sbagliato".  But never scorretto.
+
+
+
+
+
+Q
+Anima contro animo?
+Quando usare "anima" e quando "animo"?
+
+Vedi pagina 127
+
+Noi  dunque la chiamiamo ancora anima, o la inseguiamo girando attorno al termine spiritualità, e quel che vogliamo tramandare è l'idea che l'uomo sia capace di una tensione che lo spinge al di là della superficie del mondo e di se stesso, in un terreno in cui non è ancora dispiegata la totale potenza divina, ma semplicemente respira il senso profondo e laico delle cose, con la naturalezza per cui cantano gli uccelli o scorrono i fiumi, secondo un deisgno che forse proviene davvero da una bontà superiore, ma più probabilmente sgorga dalla frandezza dell'animo umano, che...
+
+Animus - latino - coraggio, lattitudine dell'uomo, spirito di una persona
+Alma - latino
+Anemos (ανεμos) - greco - respiro
+Anima - italiano - probabilmente dal greco - spirituale
+Animo - italiano - indole, atteggiamento, umore, comportamento, come si sente, stato d'animo
+
+Stato d'animo
+Animo!  (per dare coraggio ad un amico)
+L'animo dei soldati era basso
+applicare l’a. a uno studio
+avere in a. di fare una cosa
+persona d’a. buono - di atteggiamento buono
+Animo forte / animo debole / animo risoluto
+
+
+
+
+
+Q
+Ho messo appena due camicie perché non ho bisogno di molto.
+
+A
+- (it "just" numberwise and not timewise. Notice that "appena" is located after messo, not before.  Before would be applying the just to messo.  But here it applies to "due" instead.  So the location of “appena” changes the meaning.
+
+
+L'ho appena chiuso.  --> l'ho fatto poco tempo fa
+Appena chiusi la porta  --> fatto poco tempo fa
+Appena la chiusi   --> fatto poco tempo fa
+Appena sento che parla ti avverto --> poco tempo dopo
+
+L'ho chiuso appena.  --> e quasi chiuso.  Forse non a chiave (I just barely closed it)
+
+
+Ho chiuso appena due porte. --> could mean either, but typically interpreted as only 2 doors
 
 
 
